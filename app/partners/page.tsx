@@ -12,10 +12,10 @@ export default function PartnersPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="font-playfair text-4xl md:text-5xl font-bold mb-6">
-              Our Partners
+              我们的合作伙伴
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              We're proud to collaborate with forward-thinking organizations across various industries.
+              我们与行业领导者和创新公司合作，提供卓越的成果。
             </p>
           </div>
         </div>
@@ -57,25 +57,25 @@ export default function PartnersPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6">
-                Our Partnership Approach
+                我们的合作方式
               </h2>
               <p className="text-muted-foreground mb-8">
-                We believe that true partnerships are built on shared values, open communication, and mutual growth. Here's how we work with our partners:
+                我们相信真正的合作伙伴关系建立在共同价值观、开放沟通和共同成长的基础上。以下是我们与合作伙伴的合作方式：
               </p>
               
               <div className="space-y-6">
                 {[
                   {
-                    title: 'Collaborative Process',
-                    description: 'We work closely with our partners at every stage, ensuring your voice is heard and your vision is realized.'
+                    title: '协作流程',
+                    description: '我们在每个阶段都与合作伙伴密切合作，确保您的声音被听到，您的愿景得以实现。'
                   },
                   {
-                    title: 'Long-term Relationships',
-                    description: 'We focus on building lasting partnerships rather than one-off projects, allowing us to deeply understand your evolving needs.'
+                    title: '长期关系',
+                    description: '我们专注于建立持久的合作伙伴关系，而不是一次性项目，这让我们能够深入了解您不断变化的需求。'
                   },
                   {
-                    title: 'Shared Success',
-                    description: 'Your success is our success. We measure our results by the positive impact we create for your business.'
+                    title: '共享成功',
+                    description: '您的成功就是我们的成功。我们通过为您的业务创造的积极影响来衡量我们的成果。'
                   }
                 ].map((item, index) => (
                   <div key={index} className="flex gap-4">
@@ -106,17 +106,17 @@ export default function PartnersPage() {
       <section className="py-24">
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6">Partnership Benefits</h2>
+            <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6">合作优势</h2>
             <p className="text-muted-foreground text-lg">
-              What you can expect when you partner with Ascent
+              与Ascent合作时您可以期待的收获
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: 'Strategic Expertise',
-                description: 'Access to our team of strategists, designers, and developers who bring years of experience to your projects.',
+                title: '战略专业知识',
+                description: '获得我们战略师、设计师和开发人员团队的支持，他们为您的项目带来多年的经验。',
                 icon: (
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-10 w-10">
                     <circle cx="12" cy="12" r="10"/>
@@ -127,8 +127,8 @@ export default function PartnersPage() {
                 )
               },
               {
-                title: 'Innovative Solutions',
-                description: 'We stay ahead of industry trends and technologies to bring innovative solutions to your challenges.',
+                title: '创新解决方案',
+                description: '我们紧跟行业趋势和技术，为您的挑战带来创新解决方案。',
                 icon: (
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-10 w-10">
                     <path d="M2 12h1"/>
@@ -150,8 +150,8 @@ export default function PartnersPage() {
                 )
               },
               {
-                title: 'Dedicated Support',
-                description: 'A dedicated team that\'s committed to your success, with ongoing support and optimization.',
+                title: '专业支持',
+                description: '一个致力于您成功的专业团队，提供持续的支持和优化。',
                 icon: (
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-10 w-10">
                     <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
@@ -162,8 +162,8 @@ export default function PartnersPage() {
                 )
               },
               {
-                title: 'Results-Driven Approach',
-                description: 'We focus on measurable outcomes that align with your business objectives and drive growth.',
+                title: '结果导向方法',
+                description: '我们专注于与您的业务目标一致并推动增长的可衡量成果。',
                 icon: (
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-10 w-10">
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
@@ -171,8 +171,8 @@ export default function PartnersPage() {
                 )
               },
               {
-                title: 'Transparent Communication',
-                description: 'Clear and open communication throughout our partnership, with regular updates and insights.',
+                title: '透明沟通',
+                description: '在整个合作过程中保持清晰开放的沟通，定期提供更新和见解。',
                 icon: (
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-10 w-10">
                     <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
@@ -180,8 +180,8 @@ export default function PartnersPage() {
                 )
               },
               {
-                title: 'Industry Connections',
-                description: 'Access to our network of industry connections and resources to amplify your reach and impact.',
+                title: '行业联系',
+                description: '获得我们的行业联系网络和资源，扩大您的影响力和覆盖范围。',
                 icon: (
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-10 w-10">
                     <path d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2"/>
@@ -199,35 +199,7 @@ export default function PartnersPage() {
         </div>
       </section>
       
-      {/* Become a Partner */}
-      <section className="py-24 bg-primary text-primary-foreground">
-        <div className="container px-4 md:px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6">
-                Become a Partner
-              </h2>
-              <p className="text-primary-foreground/80 text-lg mb-8">
-                Interested in partnering with Ascent? Let's explore how we can create value together. Our partnership team is ready to discuss potential collaborations.
-              </p>
-              <Button size="lg" variant="secondary" asChild>
-                <Link href="/contact">
-                  Start the Conversation
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
-            </div>
-            <div className="relative h-[400px] rounded-lg overflow-hidden">
-              <Image
-                src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="Partnership"
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+
     </div>
   )
 }

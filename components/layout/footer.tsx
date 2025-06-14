@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-2xl font-playfair font-bold">Brand</h3>
             <p className="text-muted-foreground max-w-xs">
-              We create digital experiences that elevate your brand and inspire your audience.
+              通过创新设计和战略思维提升品牌价值。
             </p>
             <div className="flex space-x-4 pt-2">
               <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
@@ -32,25 +32,28 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="font-medium text-lg mb-4">Navigation</h4>
+            <h4 className="font-medium text-lg mb-4">导航</h4>
             <ul className="space-y-3">
-              {['Home', 'Projects', 'Partners', 'About', 'Contact'].map((item) => (
-                <li key={item}>
-                  <Link 
-                    href={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
-                    className="text-muted-foreground hover:text-foreground transition-colors"
-                  >
-                    {item}
-                  </Link>
-                </li>
-              ))}
+              {['首页', '项目', '合作伙伴', '关于我们', '联系我们'].map((item, index) => {
+                const hrefs = ['/', '/projects', '/partners', '/about', '/contact'];
+                return (
+                  <li key={item}>
+                    <Link 
+                      href={hrefs[index]}
+                      className="text-muted-foreground hover:text-foreground transition-colors"
+                    >
+                      {item}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
           
           <div>
-            <h4 className="font-medium text-lg mb-4">Services</h4>
+            <h4 className="font-medium text-lg mb-4">服务</h4>
             <ul className="space-y-3">
-              {['Web Development', 'Brand Identity', 'UX Design', 'Digital Marketing', 'Content Creation'].map((item) => (
+              {['网站开发', '品牌识别', '用户体验设计', '数字营销', '内容创作'].map((item) => (
                 <li key={item}>
                   <Link 
                     href="#"
@@ -64,10 +67,10 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="font-medium text-lg mb-4">Contact</h4>
+            <h4 className="font-medium text-lg mb-4">联系方式</h4>
             <address className="not-italic text-muted-foreground space-y-3">
               <p>123 Design Street</p>
-              <p>San Francisco, CA 94103</p>
+              <p>旧金山，加利福尼亚州 94103</p>
               <p className="pt-2">
                 <a href="mailto:hello@brand.com" className="hover:text-foreground transition-colors">
                   hello@brand.com
@@ -84,14 +87,14 @@ export default function Footer() {
         
         <div className="border-t border-border mt-16 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Brand. All rights reserved.
+            © {new Date().getFullYear()} Brand. 保留所有权利。
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Privacy Policy
+              隐私政策
             </Link>
             <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Terms of Service
+              服务条款
             </Link>
           </div>
         </div>

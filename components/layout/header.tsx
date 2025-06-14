@@ -62,7 +62,11 @@ export default function Header() {
                     : 'text-foreground/70 hover:text-foreground'
                 )}
               >
-                {item.name}
+                {item.name === 'Home' ? '首页' : 
+                 item.name === 'Projects' ? '项目' :
+                 item.name === 'Partners' ? '合作伙伴' :
+                 item.name === 'About' ? '关于我们' :
+                 item.name === 'Contact' ? '联系我们' : item.name}
               </Link>
             ))}
           </nav>
@@ -80,7 +84,7 @@ export default function Header() {
             </Button>
             
             <Button className="hidden md:flex" asChild>
-              <Link href="/contact">Get in Touch</Link>
+              <Link href="/contact">联系我们</Link>
             </Button>
             
             <Button
@@ -130,7 +134,7 @@ export default function Header() {
                 </Link>
               ))}
               <Button className="w-full mt-4" asChild>
-                <Link href="/contact">Get in Touch</Link>
+                <Link href="/contact">联系我们</Link>
               </Button>
             </nav>
           </div>

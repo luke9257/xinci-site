@@ -8,13 +8,13 @@ import { Badge } from '@/components/ui/badge'
 import ProjectCard from '@/components/projects/project-card'
 import { projects } from '@/lib/data'
 
-// Get unique categories from projects
-const categories = ['All', ...Array.from(new Set(projects.map(project => project.category)))]
+// 从项目中获取唯一分类
+const categories = ['全部', ...Array.from(new Set(projects.map(project => project.category)))]
 
 export default function ProjectsPage() {
-  const [activeCategory, setActiveCategory] = useState('All')
+  const [activeCategory, setActiveCategory] = useState('全部')
   
-  const filteredProjects = activeCategory === 'All' 
+  const filteredProjects = activeCategory === '全部' 
     ? projects
     : projects.filter(project => project.category === activeCategory)
   
@@ -25,10 +25,10 @@ export default function ProjectsPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl">
             <h1 className="font-playfair text-4xl md:text-5xl font-bold mb-6">
-              Our Projects
+              我们的项目
             </h1>
             <p className="text-xl text-muted-foreground">
-              Explore our portfolio of work across various industries and disciplines.
+              探索我们在各个行业和领域的作品集。
             </p>
           </div>
         </div>
@@ -69,31 +69,31 @@ export default function ProjectsPage() {
         <div className="container px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Badge variant="outline" className="mb-6">Featured Project</Badge>
+              <Badge variant="outline" className="mb-6">精选项目</Badge>
               <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6">
-                Nova Finance Platform Redesign
+                Nova金融平台重新设计
               </h2>
               <p className="text-muted-foreground mb-6">
-                A complete overhaul of Nova Finance's digital platform, focusing on improved user experience, accessibility, and advanced financial tools.
+                对Nova金融数字平台的全面改造，专注于改善用户体验、可访问性和先进的金融工具。
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 mr-2 text-primary">
                     <polyline points="20 6 9 17 4 12"/>
                   </svg>
-                  Increased user engagement by 42%
+                  用户参与度提升42%
                 </li>
                 <li className="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 mr-2 text-primary">
                     <polyline points="20 6 9 17 4 12"/>
                   </svg>
-                  Reduced customer support inquiries by 35%
+                  客户支持咨询减少35%
                 </li>
                 <li className="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 mr-2 text-primary">
                     <polyline points="20 6 9 17 4 12"/>
                   </svg>
-                  Improved accessibility score from 76 to 98
+                  可访问性评分从76提升到98
                 </li>
               </ul>
               <Button asChild>
@@ -159,24 +159,7 @@ export default function ProjectsPage() {
         </div>
       </section>
       
-      {/* CTA */}
-      <section className="py-24 bg-primary text-primary-foreground">
-        <div className="container px-4 md:px-6">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="font-playfair text-3xl md:text-5xl font-bold mb-6">
-              Let's create something exceptional together
-            </h2>
-            <p className="text-primary-foreground/80 text-xl mb-8">
-              Ready to start your next project? We'd love to hear about your ideas.
-            </p>
-            <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">
-                Get in Touch
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
+
     </div>
   )
 }
