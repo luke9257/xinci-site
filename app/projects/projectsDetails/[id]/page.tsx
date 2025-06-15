@@ -27,7 +27,7 @@ export default function ProjectDetail({ params }: { params: { id: string } }) {
           className="inline-flex items-center gap-2 text-sm font-medium text-foreground/70 hover:text-foreground transition-colors mb-24"
         >
           <ArrowLeft className="w-4 h-4" />
-          <span>Back to Projects List</span>
+          <span>返回项目列表</span>
         </Link>
 
         <div className="mb-8">
@@ -71,4 +71,4 @@ export default function ProjectDetail({ params }: { params: { id: string } }) {
       </div>
     </div>
   )
-} 
+}

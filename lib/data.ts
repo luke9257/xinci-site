@@ -1,51 +1,51 @@
 export const projects = [
   {
     id: 'nova-finance',
-    title: 'Nova Finance Platform',
-    category: 'Web Development',
-    description: 'A modern banking interface with advanced analytics and personalized insights.',
+    title: 'Nova金融平台',
+    category: '网站开发',
+    description: '具有高级分析和个性化洞察的现代银行界面。',
     image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['React', 'TypeScript', 'Tailwind CSS', 'Financial']
+    tags: ['React', 'TypeScript', 'Tailwind CSS', '金融科技']
   },
   {
     id: 'eco-habitat',
-    title: 'Eco Habitat',
-    category: 'Brand Identity',
-    description: 'Complete brand identity for a sustainable housing initiative focused on eco-friendly living.',
+    title: '生态栖息地',
+    category: '品牌设计',
+    description: '专注于环保生活的可持续住房项目的完整品牌形象设计。',
     image: 'https://images.pexels.com/photos/2469122/pexels-photo-2469122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['Branding', 'Logo Design', 'Sustainability']
+    tags: ['品牌设计', 'Logo设计', '可持续发展']
   },
   {
     id: 'pulse-fitness',
-    title: 'Pulse Fitness App',
-    category: 'Mobile Development',
-    description: 'Fitness tracking application with personalized workout plans and nutrition guidance.',
+    title: 'Pulse健身应用',
+    category: '移动开发',
+    description: '具有个性化锻炼计划和营养指导的健身追踪应用程序。',
     image: 'https://images.pexels.com/photos/1103242/pexels-photo-1103242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['React Native', 'Health Tech', 'UX Design']
+    tags: ['React Native', '健康科技', '用户体验设计']
   },
   {
     id: 'artisan-cafe',
-    title: 'Artisan Café',
-    category: 'Brand Identity',
-    description: 'Brand identity and interior design for an upscale café chain focusing on craft coffee.',
+    title: '工匠咖啡厅',
+    category: '品牌设计',
+    description: '专注于精品咖啡的高端咖啡连锁店的品牌形象和室内设计。',
     image: 'https://images.pexels.com/photos/302902/pexels-photo-302902.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['Branding', 'Interior Design', 'Hospitality']
+    tags: ['品牌设计', '室内设计', '酒店餐饮']
   },
   {
     id: 'nomad-travel',
-    title: 'Nomad Travel Platform',
-    category: 'Web Development',
-    description: 'Travel booking platform catering to digital nomads with unique accommodation options.',
+    title: '游牧旅行平台',
+    category: '网站开发',
+    description: '为数字游牧者提供独特住宿选择的旅行预订平台。',
     image: 'https://images.pexels.com/photos/7625308/pexels-photo-7625308.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['Next.js', 'Travel Tech', 'UI Design']
+    tags: ['Next.js', '旅游科技', '界面设计']
   },
   {
     id: 'summit-events',
-    title: 'Summit Events',
-    category: 'Digital Marketing',
-    description: 'Digital campaign for a technology conference with interactive landing pages and social media strategy.',
+    title: '峰会活动',
+    category: '数字营销',
+    description: '技术会议的数字化营销活动，包含交互式着陆页和社交媒体策略。',
     image: 'https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['Digital Marketing', 'Event', 'Web Design']
+    tags: ['数字营销', '活动策划', '网页设计']
   }
 ];
 
@@ -75,67 +75,67 @@ export const testimonials = [
 
 export const team = [
   {
-    name: 'Alex Morgan',
-    title: 'Founder & Creative Director',
-    bio: 'With over 15 years in design and branding, Alex founded Ascent with a vision to combine strategic thinking with exceptional design.',
+    name: '亚历克斯·摩根',
+    title: '创始人兼创意总监',
+    bio: '在设计和品牌领域拥有超过15年的经验，亚历克斯创立了Ascent，致力于将战略思维与卓越设计相结合。',
     image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
   {
-    name: 'Jamie Wilson',
-    title: 'Technical Director',
-    bio: 'Jamie brings technical excellence and innovation to every project, with deep expertise in web development and emerging technologies.',
+    name: '杰米·威尔逊',
+    title: '技术总监',
+    bio: '杰米为每个项目带来技术卓越和创新，在网站开发和新兴技术方面拥有深厚的专业知识。',
     image: 'https://images.pexels.com/photos/2380794/pexels-photo-2380794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
   {
-    name: 'Taylor Kim',
-    title: 'Design Lead',
-    bio: 'A passionate designer with an eye for detail, Taylor creates beautiful and functional experiences that resonate with users.',
+    name: '泰勒·金',
+    title: '设计主管',
+    bio: '一位充满激情且注重细节的设计师，泰勒创造出与用户产生共鸣的美观且实用的体验。',
     image: 'https://images.pexels.com/photos/2613260/pexels-photo-2613260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
   {
-    name: 'Morgan Rivera',
-    title: 'Strategy Director',
-    bio: 'Morgan crafts compelling brand strategies and narratives that connect businesses with their audiences in meaningful ways.',
+    name: '摩根·里维拉',
+    title: '策略总监',
+    bio: '摩根制定引人入胜的品牌策略和叙述，以有意义的方式将企业与其受众联系起来。',
     image: 'https://images.pexels.com/photos/1181391/pexels-photo-1181391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   }
 ];
 
 export const partners = [
   {
-    name: 'TechNova',
-    description: 'A leading technology company pioneering sustainable innovation.',
+    name: '科技新星',
+    description: '引领可持续创新的领先技术公司。',
     logo: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1600&h=1000&dpr=2',
-    testimonial: 'Ascent helped us refine our digital presence to better reflect our innovative approach.'
+    testimonial: 'Ascent帮助我们完善了数字化形象，更好地体现了我们的创新方法。'
   },
   {
-    name: 'GreenEarth',
-    description: 'Environmental non-profit focused on conservation and education.',
+    name: '绿色地球',
+    description: '专注于保护和教育的环保非营利组织。',
     logo: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1600&h=1000&dpr=2',
-    testimonial: 'Our partnership resulted in a 40% increase in online donations and volunteer sign-ups.'
+    testimonial: '我们的合作使在线捐款和志愿者注册增加了40%。'
   },
   {
-    name: 'Urban Dwellers',
-    description: 'Modern furniture design for compact urban living spaces.',
+    name: '都市居住者',
+    description: '为紧凑型城市生活空间设计的现代家具。',
     logo: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1600&h=1000&dpr=2',
-    testimonial: 'The brand identity Ascent created perfectly captures our aesthetic and values.'
+    testimonial: 'Ascent创造的品牌形象完美地体现了我们的美学和价值观。'
   },
   {
-    name: 'Pulse Media',
-    description: 'Digital media company focusing on emerging cultural trends.',
+    name: '脉动媒体',
+    description: '专注于新兴文化趋势的数字媒体公司。',
     logo: 'https://images.pexels.com/photos/3182781/pexels-photo-3182781.jpeg?auto=compress&cs=tinysrgb&w=1600&h=1000&dpr=2',
-    testimonial: 'Working with Ascent transformed our content strategy and audience engagement.'
+    testimonial: '与Ascent的合作改变了我们的内容策略和受众参与度。'
   },
   {
-    name: 'Summit Financial',
-    description: 'Progressive financial services for the digital economy.',
+    name: '峰会金融',
+    description: '为数字经济提供进步金融服务。',
     logo: 'https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1600&h=1000&dpr=2',
-    testimonial: 'Our website redesign by Ascent resulted in a 25% increase in client acquisitions.'
+    testimonial: 'Ascent为我们重新设计的网站使客户获取量增加了25%。'
   },
   {
-    name: 'Horizon Health',
-    description: 'Healthcare provider focused on accessible telemedicine services.',
+    name: '地平线健康',
+    description: '专注于便民远程医疗服务的医疗保健提供商。',
     logo: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1600&h=1000&dpr=2',
-    testimonial: 'Ascent helped us navigate the complex challenge of creating an intuitive telehealth platform.'
+    testimonial: 'Ascent帮助我们应对了创建直观远程医疗平台的复杂挑战。'
   }
 ];
 

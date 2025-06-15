@@ -34,11 +34,11 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="text-base" asChild>
                 <Link href="/projects">
-                  查看我们的项目
+                  服务项目
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" className="text-base bg-white border border-blue-400 hover:bg-blue-50" asChild>
+              <Button size="lg" variant="outline" className="text-base bg-white border border-red-400 hover:bg-red-50" asChild>
                 <Link href="/contact">
                   联系我们
                 </Link>

@@ -63,7 +63,7 @@ export default function Header() {
                 )}
               >
                 {item.name === 'Home' ? '首页' : 
-                 item.name === 'Projects' ? '项目' :
+                 item.name === 'Projects' ? '增长业务' :
                  item.name === 'Partners' ? '合作伙伴' :
                  item.name === 'About' ? '关于我们' :
                  item.name === 'Contact' ? '联系我们' : item.name}
@@ -83,7 +83,7 @@ export default function Header() {
               <Moon className="absolute h-5 w-5 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
             </Button>
             
-            <Button className="hidden md:flex" asChild>
+            <Button className="hidden md:flex font-bold" asChild>
               <Link href="/contact">联系我们</Link>
             </Button>
             
@@ -130,10 +130,14 @@ export default function Header() {
                   )}
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  {item.name}
+                  {item.name === 'Home' ? '首页' : 
+                   item.name === 'Projects' ? '增长业务' :
+                   item.name === 'Partners' ? '合作伙伴' :
+                   item.name === 'About' ? '关于我们' :
+                   item.name === 'Contact' ? '联系我们' : item.name}
                 </Link>
               ))}
-              <Button className="w-full mt-4" asChild>
+              <Button className="w-full mt-4 font-bold" asChild>
                 <Link href="/contact">联系我们</Link>
               </Button>
             </nav>

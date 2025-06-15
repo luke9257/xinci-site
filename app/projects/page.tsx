@@ -118,9 +118,9 @@ export default function ProjectsPage() {
       <section className="py-24">
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6">Our Process</h2>
+            <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6">我们的流程</h2>
             <p className="text-muted-foreground text-lg">
-              How we approach each project to deliver exceptional results
+              经过验证的方法论，提供卓越的成果
             </p>
           </div>
           
@@ -128,23 +128,23 @@ export default function ProjectsPage() {
             {[
               {
                 number: '01',
-                title: 'Discovery',
-                description: 'We start by understanding your business, audience, and objectives through in-depth research and stakeholder interviews.'
+                title: '发现',
+                description: '我们通过全面的研究和分析，首先了解您的业务、目标和挑战。'
               },
               {
                 number: '02',
-                title: 'Strategy',
-                description: 'Based on our findings, we develop a comprehensive strategy tailored to your specific needs and goals.'
+                title: '策略',
+                description: '基于我们的发现，我们制定符合您目标和市场机会的定制化策略。'
               },
               {
                 number: '03',
-                title: 'Creation',
-                description: 'Our team of designers and developers bring the strategy to life with meticulous attention to detail.'
+                title: '创造',
+                description: '我们的团队通过创新的设计、开发和实施，将策略转化为现实。'
               },
               {
                 number: '04',
-                title: 'Optimization',
-                description: 'We continuously analyze, test, and refine to ensure the solution performs optimally and achieves your goals.'
+                title: '优化',
+                description: '我们持续监控、测试和完善，确保最佳性能和最大影响力。'
               }
             ].map((step, index) => (
               <div key={index} className="relative p-8 bg-card rounded-lg border border-border">

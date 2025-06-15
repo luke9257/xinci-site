@@ -34,7 +34,7 @@ export default function Footer() {
           <div>
             <h4 className="font-medium text-lg mb-4">导航</h4>
             <ul className="space-y-3">
-              {['首页', '项目', '合作伙伴', '关于我们', '联系我们'].map((item, index) => {
+              {['首页', '增长业务', '合作伙伴', '关于我们', '联系我们'].map((item, index) => {
                 const hrefs = ['/', '/projects', '/partners', '/about', '/contact'];
                 return (
                   <li key={item}>
