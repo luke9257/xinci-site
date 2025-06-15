@@ -43,9 +43,20 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <span className="font-playfair text-2xl font-bold tracking-tight">
-                Brand
-              </span>
+              {/* 亮色模式下显示深色logo - 高度37px，宽度自适应 */}
+                <img 
+                  src="/logo-light.png" 
+                  alt="新词" 
+                  className="w-auto dark:hidden" 
+                  style={{ height: '37px' }}
+                />
+                {/* 暗色模式下显示浅色logo - 高度37px，宽度自适应 */}
+                <img 
+                  src="/logo-dark.png" 
+                  alt="新词" 
+                  className="w-auto hidden dark:block" 
+                  style={{ height: '37px' }}
+                />
             </Link>
           </div>
           
@@ -105,9 +116,20 @@ export default function Header() {
           <div className="container mx-auto px-4 py-6">
             <div className="flex items-center justify-between mb-8">
               <Link href="/" className="flex items-center space-x-2">
-                <span className="font-playfair text-2xl font-bold tracking-tight">
-                  Brand
-                </span>
+                {/* 亮色模式下显示深色logo - 高度37px，宽度自适应 */}
+                  <img 
+                    src="/logo-light.png" 
+                    alt="新词" 
+                    className="w-auto dark:hidden" 
+                    style={{ height: '37px' }}
+                  />
+                  {/* 暗色模式下显示浅色logo - 高度37px，宽度自适应 */}
+                  <img 
+                    src="/logo-dark.png" 
+                    alt="新词" 
+                    className="w-auto hidden dark:block" 
+                    style={{ height: '37px' }}
+                  />
               </Link>
               <Button
                 variant="ghost"

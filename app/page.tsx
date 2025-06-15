@@ -13,9 +13,9 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/50 to-background/20 dark:from-background/95 dark:via-background/80 dark:to-background/95 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-background/40 dark:from-background/98 dark:via-background/90 dark:to-background/98 z-10" />
           <Image 
-            src="https://images.pexels.com/photos/3861458/pexels-photo-3861458.jpeg?auto=compress&cs=tinysrgb&w=1600" 
+            src="https://images.pexels.com/photos/682933/pexels-photo-682933.jpeg?auto=compress&cs=tinysrgb&w=1600" 
             alt="Hero background" 
             fill 
             className="object-cover"
@@ -26,10 +26,10 @@ export default function Home() {
         <div className="container relative z-20 px-4 md:px-6">
           <div className="max-w-3xl">
             <h1 className="font-playfair text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight mb-6">
-              我们打造提升品牌价值的数字化体验
+              我们构建贯穿游戏生命周期的增长网络
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-xl">
-              为前瞻性品牌和企业提供策略驱动的设计与技术解决方案。
+              致力于为重视长久用户关系的合作厂商，提供务实且长效的增长解决方案。
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="text-base" asChild>

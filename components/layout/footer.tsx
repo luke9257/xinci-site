@@ -7,7 +7,22 @@ export default function Footer() {
       <div className="container px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div className="space-y-4">
-            <h3 className="text-2xl font-playfair font-bold">Brand</h3>
+            <div className="flex items-center">
+              {/* 亮色模式下显示深色logo - 高度37px，宽度自适应 */}
+              <img 
+                src="/logo-light.png" 
+                alt="新词" 
+                className="w-auto dark:hidden" 
+                style={{ height: '37px' }}
+              />
+              {/* 暗色模式下显示浅色logo - 高度37px，宽度自适应 */}
+              <img 
+                src="/logo-dark.png" 
+                alt="新词" 
+                className="w-auto hidden dark:block" 
+                style={{ height: '37px' }}
+              />
+            </div>
             <p className="text-muted-foreground max-w-xs">
               通过创新设计和战略思维提升品牌价值。
             </p>
@@ -72,8 +87,8 @@ export default function Footer() {
               <p>123 Design Street</p>
               <p>旧金山，加利福尼亚州 94103</p>
               <p className="pt-2">
-                <a href="mailto:hello@brand.com" className="hover:text-foreground transition-colors">
-                  hello@brand.com
+                <a href="mailto:hello@新词.com" className="hover:text-foreground transition-colors">
+                  hello@新词.com
                 </a>
               </p>
               <p>
@@ -87,16 +102,9 @@ export default function Footer() {
         
         <div className="border-t border-border mt-16 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Brand. 保留所有权利。
+            © {new Date().getFullYear()} 新词. 保留所有权利。
           </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              隐私政策
-            </Link>
-            <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              服务条款
-            </Link>
-          </div>
+
         </div>
       </div>
     </footer>

@@ -54,7 +54,7 @@ export const testimonials = [
     name: 'Sarah Johnson',
     title: 'CEO',
     company: 'Innovate Tech',
-    quote: 'Working with Ascent transformed our brand presence. Their attention to detail and creative approach delivered results beyond our expectations.',
+    quote: 'Working with Ascent transformed our 新词 presence. Their attention to detail and creative approach delivered results beyond our expectations.',
     avatar: 'https://images.pexels.com/photos/762080/pexels-photo-762080.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
   {
@@ -68,7 +68,7 @@ export const testimonials = [
     name: 'Elena Rodriguez',
     title: 'Founder',
     company: 'Artisan Collective',
-    quote: 'Their ability to capture the essence of our artisanal brand and translate it into a digital experience was remarkable. A true creative partner.',
+    quote: 'Their ability to capture the essence of our artisanal 新词 and translate it into a digital experience was remarkable. A true creative partner.',
     avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
 ];
@@ -141,14 +141,14 @@ export const partners = [
 
 export const services = [
   {
-    title: 'Brand Identity',
-    description: 'We develop comprehensive brand identities that capture your essence and connect with your audience.',
+    title: '新词 Identity',
+    description: 'We develop comprehensive 新词 identities that capture your essence and connect with your audience.',
     features: [
-      'Brand strategy and positioning',
+      '新词 strategy and positioning',
       'Logo and visual identity design',
-      'Brand guidelines and assets',
-      'Brand messaging and voice',
-      'Brand applications'
+      '新词 guidelines and assets',
+      '新词 messaging and voice',
+      '新词 applications'
     ]
   },
   {

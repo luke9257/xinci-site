@@ -5,7 +5,7 @@ import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
 
 export const metadata: Metadata = {
-  title: 'Brand | Creative Agency',
+  title: '新词 | Creative Agency',
   description: 'We create digital experiences that elevate your brand',
 };
 
