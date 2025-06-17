@@ -49,7 +49,7 @@ export default function Footer() {
           <div>
             <h4 className="font-medium text-lg mb-4">导航</h4>
             <ul className="space-y-3">
-              {['首页', '增长业务', '合作伙伴', '关于我们', '联系我们'].map((item, index) => {
+              {['首页', '增长业务', '服务案例', '关于我们', '联系我们'].map((item, index) => {
                 const hrefs = ['/', '/projects', '/partners', '/about', '/contact'];
                 return (
                   <li key={item}>
@@ -102,7 +102,7 @@ export default function Footer() {
         
         <div className="border-t border-border mt-16 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} 新词. 保留所有权利。
+            © {new Date().getFullYear()} 新词 All rights reserved.
           </p>
 
         </div>

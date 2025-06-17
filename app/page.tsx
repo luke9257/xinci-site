@@ -68,23 +68,23 @@ export default function Home() {
             {[
               {
                 icon: <PenTool className="h-10 w-10" />,
-                title: '品牌识别',
-                description: '我们创造体现您品牌价值的独特视觉系统。'
+                title: '策略与规划',
+                description: '通过我们的策略组合，在您游戏的生命周期中产生持续影响。'
               },
               {
                 icon: <Code className="h-10 w-10" />,
-                title: '网站开发',
-                description: '使用前沿技术构建定制化网站解决方案，确保性能和可扩展性。'
+                title: '内容与创意',
+                description: '擅长提供从广告创意、品宣物料到KOL、IP营销的全案内容。'
               },
               {
                 icon: <Users className="h-10 w-10" />,
-                title: '用户体验设计',
-                description: '以人为本的设计，为您的用户创造直观、引人入胜的体验。'
+                title: '社媒与社群',
+                description: '将您的用户沉淀到活跃社群，并让游戏在社媒阵地广泛传播。'
               },
               {
                 icon: <BarChart className="h-10 w-10" />,
-                title: '数字营销',
-                description: '数据驱动的策略，提升您的知名度并推动有意义的互动。'
+                title: '渠道与分发',
+                description: '整合内容、ASO与付费广告，优化应用商店/平台用户获取。'
               }
             ].map((service, i) => (
               <div key={i} className="group p-8 bg-card rounded-lg border border-border hover:border-primary/50 transition-all duration-300">

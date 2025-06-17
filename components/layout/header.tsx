@@ -43,19 +43,19 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              {/* 亮色模式下显示深色logo - 高度37px，宽度自适应 */}
+              {/* 亮色模式下显示深色logo - 高度37px，宽度自适应，向左移动8px */}
                 <img 
                   src="/logo-light.png" 
                   alt="新词" 
                   className="w-auto dark:hidden" 
-                  style={{ height: '37px' }}
+                  style={{ height: '37px', marginLeft: '-8px' }}
                 />
-                {/* 暗色模式下显示浅色logo - 高度37px，宽度自适应 */}
+                {/* 暗色模式下显示浅色logo - 高度37px，宽度自适应，向左移动8px */}
                 <img 
                   src="/logo-dark.png" 
                   alt="新词" 
                   className="w-auto hidden dark:block" 
-                  style={{ height: '37px' }}
+                  style={{ height: '37px', marginLeft: '-8px' }}
                 />
             </Link>
           </div>
@@ -75,7 +75,7 @@ export default function Header() {
               >
                 {item.name === 'Home' ? '首页' : 
                  item.name === 'Projects' ? '增长业务' :
-                 item.name === 'Partners' ? '合作伙伴' :
+                 item.name === 'Partners' ? '服务案例' :
                  item.name === 'About' ? '关于我们' :
                  item.name === 'Contact' ? '联系我们' : item.name}
               </Link>
@@ -116,19 +116,19 @@ export default function Header() {
           <div className="container mx-auto px-4 py-6">
             <div className="flex items-center justify-between mb-8">
               <Link href="/" className="flex items-center space-x-2">
-                {/* 亮色模式下显示深色logo - 高度37px，宽度自适应 */}
+                {/* 亮色模式下显示深色logo - 高度37px，宽度自适应，向左移动8px */}
                   <img 
                     src="/logo-light.png" 
                     alt="新词" 
                     className="w-auto dark:hidden" 
-                    style={{ height: '37px' }}
+                    style={{ height: '37px', marginLeft: '-8px' }}
                   />
-                  {/* 暗色模式下显示浅色logo - 高度37px，宽度自适应 */}
+                  {/* 暗色模式下显示浅色logo - 高度37px，宽度自适应，向左移动8px */}
                   <img 
                     src="/logo-dark.png" 
                     alt="新词" 
                     className="w-auto hidden dark:block" 
-                    style={{ height: '37px' }}
+                    style={{ height: '37px', marginLeft: '-8px' }}
                   />
               </Link>
               <Button
@@ -154,7 +154,7 @@ export default function Header() {
                 >
                   {item.name === 'Home' ? '首页' : 
                    item.name === 'Projects' ? '增长业务' :
-                   item.name === 'Partners' ? '合作伙伴' :
+                   item.name === 'Partners' ? '服务案例' :
                    item.name === 'About' ? '关于我们' :
                    item.name === 'Contact' ? '联系我们' : item.name}
                 </Link>

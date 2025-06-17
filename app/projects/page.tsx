@@ -98,7 +98,7 @@ export default function ProjectsPage() {
               </ul>
               <Button asChild>
                 <Link href="/contact">
-                  Get in Touch
+                  联系我们
                 </Link>
               </Button>
             </div>
@@ -129,30 +129,86 @@ export default function ProjectsPage() {
               {
                 number: '01',
                 title: '发现',
-                description: '我们通过全面的研究和分析，首先了解您的业务、目标和挑战。'
+                description: '我们通过全面的研究和分析，首先了解您的业务、目标和挑战。',
+                icon: (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.35-4.35"/>
+                  </svg>
+                )
               },
               {
                 number: '02',
                 title: '策略',
-                description: '基于我们的发现，我们制定符合您目标和市场机会的定制化策略。'
+                description: '基于我们的发现，我们制定符合您目标和市场机会的定制化策略。',
+                icon: (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                  </svg>
+                )
               },
               {
                 number: '03',
                 title: '创造',
-                description: '我们的团队通过创新的设计、开发和实施，将策略转化为现实。'
+                description: '我们的团队通过创新的设计、开发和实施，将策略转化为现实。',
+                icon: (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6" style={{filter: 'drop-shadow(0 0 1px rgba(221, 78, 82, 0.3))'}}>
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2" strokeWidth="1.5"/>
+                    <path d="m9 12 2 2 4-4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                )
               },
               {
                 number: '04',
                 title: '优化',
-                description: '我们持续监控、测试和完善，确保最佳性能和最大影响力。'
+                description: '我们持续监控、测试和完善，确保最佳性能和最大影响力。',
+                icon: (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6" style={{filter: 'drop-shadow(0 0 1px rgba(221, 78, 82, 0.3))'}}>
+                    {/* 上方箭头 */}
+                    <path d="M4 7l3-3 3 3" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    {/* 上方圆弧 */}
+                    <path d="M7 4v4a8 8 0 0 0 8 8h4" strokeWidth="1.5" strokeLinecap="round"/>
+                    {/* 下方箭头 */}
+                    <path d="M20 17l-3 3-3-3" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    {/* 下方圆弧 */}
+                    <path d="M17 20v-4a8 8 0 0 0-8-8H5" strokeWidth="1.5" strokeLinecap="round"/>
+                  </svg>
+                )
               }
             ].map((step, index) => (
-              <div key={index} className="relative p-8 bg-card rounded-lg border border-border">
-                <div className="text-5xl font-playfair font-bold text-muted/20 absolute top-4 right-4">
-                  {step.number}
+              <div key={index} className="relative p-6 bg-card rounded-lg border border-border">
+                {/* 第一行：图标和背景数字 */}
+                <div className="flex items-start justify-between mb-3">
+                  {/* 左侧图标 */}
+                  <div className="flex-shrink-0">
+                    <div 
+                      className="w-12 h-12 rounded-lg flex items-center justify-center"
+                      style={{ backgroundColor: '#F8EAEA' }}
+                    >
+                      <div style={{ color: '#DD4E52' }}>
+                        {step.icon}
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* 右侧背景数字 - 高度为图标的80% */}
+                  <div 
+                    className="font-playfair font-bold text-muted-foreground/20 leading-none"
+                    style={{ fontSize: '2.4rem', height: '2.4rem' }}
+                  >
+                    {step.number}
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-3 mt-6">{step.title}</h3>
-                <p className="text-muted-foreground">{step.description}</p>
+                
+                {/* 第二行：标题 */}
+                <div className="mb-2">
+                  <h3 className="text-xl font-bold">{step.title}</h3>
+                </div>
+                
+                {/* 第三行：内容描述 */}
+                <div>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{step.description}</p>
+                </div>
               </div>
             ))}
           </div>
