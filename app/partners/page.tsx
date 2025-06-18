@@ -12,10 +12,10 @@ export default function PartnersPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="font-playfair text-4xl md:text-5xl font-bold mb-6">
-              我们的合作伙伴
+              我们的合作案例
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              我们与行业领导者和创新公司合作，提供卓越的成果。
+              我们助力开发者、发行商和全球工作室，为其游戏和品牌提供支持。
             </p>
           </div>
         </div>

@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 'nova-finance',
     title: 'Nova金融平台',
-    category: '网站开发',
+    category: '策略与规划', // 原：网站开发
     description: '具有高级分析和个性化洞察的现代银行界面。',
     image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['React', 'TypeScript', 'Tailwind CSS', '金融科技']
@@ -10,7 +10,7 @@ export const projects = [
   {
     id: 'eco-habitat',
     title: '生态栖息地',
-    category: '品牌设计',
+    category: '内容与创意', // 原：品牌设计
     description: '专注于环保生活的可持续住房项目的完整品牌形象设计。',
     image: 'https://images.pexels.com/photos/2469122/pexels-photo-2469122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['品牌设计', 'Logo设计', '可持续发展']
@@ -18,7 +18,7 @@ export const projects = [
   {
     id: 'pulse-fitness',
     title: 'Pulse健身应用',
-    category: '移动开发',
+    category: '社媒与社群', // 原：移动开发
     description: '具有个性化锻炼计划和营养指导的健身追踪应用程序。',
     image: 'https://images.pexels.com/photos/1103242/pexels-photo-1103242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['React Native', '健康科技', '用户体验设计']
@@ -26,7 +26,7 @@ export const projects = [
   {
     id: 'artisan-cafe',
     title: '工匠咖啡厅',
-    category: '品牌设计',
+    category: '渠道与分发', // 原：品牌设计
     description: '专注于精品咖啡的高端咖啡连锁店的品牌形象和室内设计。',
     image: 'https://images.pexels.com/photos/302902/pexels-photo-302902.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['品牌设计', '室内设计', '酒店餐饮']
@@ -34,7 +34,7 @@ export const projects = [
   {
     id: 'nomad-travel',
     title: '游牧旅行平台',
-    category: '网站开发',
+    category: '策略与规划', // 原：网站开发
     description: '为数字游牧者提供独特住宿选择的旅行预订平台。',
     image: 'https://images.pexels.com/photos/7625308/pexels-photo-7625308.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['Next.js', '旅游科技', '界面设计']
@@ -42,7 +42,7 @@ export const projects = [
   {
     id: 'summit-events',
     title: '峰会活动',
-    category: '数字营销',
+    category: '内容与创意', // 原：数字营销
     description: '技术会议的数字化营销活动，包含交互式着陆页和社交媒体策略。',
     image: 'https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['数字营销', '活动策划', '网页设计']
@@ -103,7 +103,7 @@ export const team = [
 export const partners = [
   {
     name: '科技新星',
-    description: '引领可持续创新的领先技术公司。',
+    description: '引领可持续创新的leading技术公司。',
     logo: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1600&h=1000&dpr=2',
     testimonial: 'Ascent帮助我们完善了数字化形象，更好地体现了我们的创新方法。'
   },

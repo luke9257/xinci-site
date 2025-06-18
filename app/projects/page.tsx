@@ -25,10 +25,10 @@ export default function ProjectsPage() {
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl">
             <h1 className="font-playfair text-4xl md:text-5xl font-bold mb-6">
-              我们的项目
+              我们的服务
             </h1>
             <p className="text-xl text-muted-foreground">
-              探索我们在各个行业和领域的作品集。
+              提供覆盖广泛地区、平台和细分类型的营销服务和专业知识。
             </p>
           </div>
         </div>
