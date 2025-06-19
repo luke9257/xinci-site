@@ -60,7 +60,7 @@ export default function PartnersPage() {
                 我们的合作方式
               </h2>
               <p className="text-muted-foreground mb-8">
-                我们相信真正的合作伙伴关系建立在共同价值观、开放沟通和共同成长的基础上。以下是我们与合作伙伴的合作方式：
+                我们相信好的伙伴关系建立在共同价值观、开放沟通和共同成长的基础上。以下是我们与合作伙伴的合作方式：
               </p>
               
               <div className="space-y-6">
@@ -108,15 +108,15 @@ export default function PartnersPage() {
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6">合作优势</h2>
             <p className="text-muted-foreground text-lg">
-              与Ascent合作时您可以期待的收获
+              与新词合作时您可以期待的收获
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: '战略专业知识',
-                description: '获得我们战略师、设计师和开发人员团队的支持，他们为您的项目带来多年的经验。',
+                title: '全栈业务能力',
+                description: '获得我们策略、设计和开发团队的支持，他们为您的项目带来多年的经验。',
                 icon: (
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-10 w-10">
                     <circle cx="12" cy="12" r="10"/>
@@ -127,8 +127,8 @@ export default function PartnersPage() {
                 )
               },
               {
-                title: '创新解决方案',
-                description: '我们紧跟行业趋势和技术，为您的挑战带来创新解决方案。',
+                title: '前沿解决方案',
+                description: '我们紧跟行业趋势和用户偏好，为您的挑战带来前沿解决方案。',
                 icon: (
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-10 w-10">
                     <path d="M2 12h1"/>
@@ -150,8 +150,8 @@ export default function PartnersPage() {
                 )
               },
               {
-                title: '专业支持',
-                description: '一个致力于您成功的专业团队，提供持续的支持和优化。',
+                title: '专业化服务',
+                description: '一个致力于您成功的专业团队，提供持续的服务和优化。',
                 icon: (
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-10 w-10">
                     <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
@@ -162,8 +162,8 @@ export default function PartnersPage() {
                 )
               },
               {
-                title: '结果导向方法',
-                description: '我们专注于与您的业务目标一致并推动增长的可衡量成果。',
+                title: '成果导向',
+                description: '我们专注于与您的业务目标一致并推动持续增长的可衡量成果。',
                 icon: (
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-10 w-10">
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
@@ -171,7 +171,7 @@ export default function PartnersPage() {
                 )
               },
               {
-                title: '透明沟通',
+                title: '高效沟通',
                 description: '在整个合作过程中保持清晰开放的沟通，定期提供更新和见解。',
                 icon: (
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-10 w-10">
@@ -180,7 +180,7 @@ export default function PartnersPage() {
                 )
               },
               {
-                title: '行业联系',
+                title: '资源网络',
                 description: '获得我们的行业联系网络和资源，扩大您的影响力和覆盖范围。',
                 icon: (
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-10 w-10">

@@ -24,7 +24,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-muted-foreground max-w-xs">
-              通过创新设计和战略思维提升品牌价值。
+              释放游戏品牌的增长潜能。
             </p>
             <div className="flex space-x-4 pt-2">
               <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
