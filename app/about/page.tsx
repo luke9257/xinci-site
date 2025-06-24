@@ -60,25 +60,25 @@ export default function AboutPage() {
                 year: '缘起',
                 title: '缘起新词',
                 description: '新词，映射着一个时代的演进与文化的变迁。我们以此为名，自创立起便深度参与游戏行业，助力全新产品的成功发布与经典产品的品牌焕新。',
-                image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+                image: 'https://images.pexels.com/photos/1637438/pexels-photo-1637438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
               },
               {
                 year: '进化',
                 title: '专业进化',
                 description: '我们深知游戏的成功是一项系统性工程。为此，新词提供从市场研究、发行策略到营销增长与品牌战略的全链路服务。我们的人才和能力也随行业持续进化。',
-                image: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+                image: 'https://images.pexels.com/photos/7915241/pexels-photo-7915241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
               },
               {
                 year: '洞见',
                 title: '洞见未来',
                 description: '新词不仅仅希望在幕后创造价值，也乐于公开发现和分享新的见解。我们未来将开放游戏研究计划——与行业中最优秀的人才和核心品牌一起，公开且协作地学习。',
-                image: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+                image: 'https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
               },
               {
                 year: '共鸣',
                 title: '共鸣致远',
                 description: '简而言之，新词的一切行动都围绕着我们的核心使命：助力游戏从业者，掌握产业长效经营之道。如果我们的理念能让您产生共鸣，我们也热切期待与您深入交流。',
-                image: 'https://images.pexels.com/photos/3182781/pexels-photo-3182781.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+                image: 'https://images.pexels.com/photos/3391378/pexels-photo-3391378.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
               }
             ].map((milestone, index) => (
               <div key={index} className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
