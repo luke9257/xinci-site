@@ -12,11 +12,11 @@ export default function AboutPage() {
         <div className="container px-4 md:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-3xl md:text-5xl font-bold mb-6">
+              <h1 className="font-playfair text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
                 营销之术 · 玩者之心
               </h1>
-              <p className="text-xl text-muted-foreground mb-8">
-                我们是一支在游戏领域深耕多年的市场发行专家组成的狂热团队，致力于深度理解游戏产品，策划以玩家为中心的营销内容，凭借精准的数据洞察与玩家建立情感连接，助力合作伙伴实现业绩增长和持续成功。
+              <p className="text-muted-foreground text-lg mb-6">
+                我们是一家提供全方位服务的<strong>游戏营销机构</strong>，由行业资深人士创立，拥有丰富的<strong>游戏发行经验</strong>和<strong>创意专家资源</strong>，并对游戏充满热情。我们秉持玩者之心，为重视长久用户关系的发行商、工作室和品牌提供增长服务。
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button asChild>
