@@ -34,7 +34,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="text-base" asChild>
                 <Link href="/projects">
-                  服务项目
+                  了解更多
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
@@ -57,9 +57,9 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16">
             <div className="max-w-md mb-8 md:mb-0">
-              <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-4">我们的服务</h2>
+              <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-4">我们的能力</h2>
               <p className="text-muted-foreground whitespace-nowrap">
-                我们融合策略、设计和技术，创造具有影响力的数字化解决方案。
+                与厂商同频共振，以"外部发行团队"模式，提供全链路增长服务。
               </p>
             </div>
           </div>
@@ -102,9 +102,9 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16">
             <div className="max-w-md mb-8 md:mb-0">
-              <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-4">精选项目</h2>
+              <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-4">服务项目</h2>
               <p className="text-muted-foreground">
-                我们在各个行业的最新作品精选。
+                精心设计与执行创新营销策略并展开发行支持。
               </p>
             </div>
             <Button variant="outline" asChild>
