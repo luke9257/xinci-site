@@ -69,31 +69,31 @@ export default function ProjectsPage() {
         <div className="container px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Badge variant="outline" className="mb-6">精选项目</Badge>
+              <Badge variant="outline" className="mb-6">精选服务</Badge>
               <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6">
-                Nova金融平台重新设计
+                手游硬核渠道发行
               </h2>
               <p className="text-muted-foreground mb-6">
-                对Nova金融数字平台的全面改造，专注于改善用户体验、可访问性和先进的金融工具。
+                专注华为、OPPO、VIVO等手机应用市场，最大化产品的渠道用户量级与收益。
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 mr-2 text-primary">
                     <polyline points="20 6 9 17 4 12"/>
                   </svg>
-                  用户参与度提升42%
+                  用户新增量级提升150%
                 </li>
                 <li className="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 mr-2 text-primary">
                     <polyline points="20 6 9 17 4 12"/>
                   </svg>
-                  客户支持咨询减少35%
+                  产品流水收益提升100%
                 </li>
                 <li className="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 mr-2 text-primary">
                     <polyline points="20 6 9 17 4 12"/>
                   </svg>
-                  可访问性评分从76提升到98
+                  产品运营周期提升75%
                 </li>
               </ul>
               <Button asChild>
@@ -104,7 +104,7 @@ export default function ProjectsPage() {
             </div>
             <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
               <Image
-                src="https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src="https://images.pexels.com/photos/7988692/pexels-photo-7988692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="Nova Finance Platform"
                 fill
                 className="object-cover"

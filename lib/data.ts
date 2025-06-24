@@ -12,8 +12,8 @@ export const projects = [
     title: '品牌升级焕新',
     category: '策略与规划',
     description: '围绕IP或系列作产品的品牌形象升级与用户认知焕新。',
-    image: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', // 修改：替换为新的图片地址
-    tags: ['品牌策略', '视觉升级', '用户认知', '情感连接'],
+    image: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    tags: ['品牌建设', '视觉设计', '版本营销', 'IP营销'], // 修改：更新为新的标签
     featured: true,
   },
   {
@@ -45,7 +45,7 @@ export const projects = [
     title: '联合营销',
     category: '内容与创意',
     description: '策划执行创新性IP合作、品牌联动、活动营销等。',
-    image: 'https://images.pexels.com/photos/9072205/pexels-photo-9072205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/65767/pexels-photo-65767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['IP合作', '品牌联动', '活动策划', '公关传播']
   },
   {
