@@ -37,7 +37,7 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/6476193/pexels-photo-6476193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['市场与产品定位', 'GTM策略', '数据分析', '创意支持']
   },
   {
@@ -65,7 +65,7 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/11234306/pexels-photo-11234306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', // 修改：替换为新的图片地址
+    image: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', // 修改：替换为新的图片地址
     tags: ['内容创作', '种草运营', '达人营销', '直播运营']
   },
   {
@@ -93,7 +93,7 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/1103242/pexels-photo-1103242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['渠道商务', '渠道运营', '付费推广', '转化调优']
   },
   {
@@ -148,7 +148,7 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/7625308/pexels-photo-7625308.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/11234306/pexels-photo-11234306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['内容创作', '种草运营', '达人营销', '直播运营']
   },
   {
@@ -176,7 +176,7 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['IP合作', '品牌联动', '活动策划', '公关传播']
   },
   {
@@ -203,7 +203,7 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['账号运营', '内容创作', '数据分析', '竞品监测']
   },
   {
@@ -232,7 +232,7 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/7915392/pexels-photo-7915392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['社群建设', '活动策划', '创作者运营']
   }
 ];
