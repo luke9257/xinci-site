@@ -1,67 +1,67 @@
 export const projects = [
   {
-    id: 'nova-finance',
-    title: '新品上市策略', // 修改：原为'Nova金融平台'
+    id: 'gtm', // 修改：原为'nova-finance'
+    title: '新品上市策略',
     category: '策略与规划',
-    description: '新款产品研发、测试到上线发布的全栈增长解决方案。', // 修改：更新描述
+    description: '新款产品研发、测试到上线发布的全栈增长解决方案。',
     image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['市场与产品定位', 'GTM策略', '数据分析', '创意支持'] // 修改：更新标签
+    tags: ['市场与产品定位', 'GTM策略', '数据分析', '创意支持']
   },
   {
-    id: 'eco-habitat',
-    title: '品牌升级焕新', // 修改：原为'生态栖息地'
-    category: '策略与规划', // 修改：原为'内容与创意'
-    description: '经典产品围绕版本节点与核心圈层的整合营销战役。', // 修改：更新描述
+    id: 'brand-strategy', // 修改：原为'eco-habitat'
+    title: '品牌升级焕新',
+    category: '策略与规划',
+    description: '经典产品围绕版本节点与核心圈层的整合营销战役。',
     image: 'https://images.pexels.com/photos/2469122/pexels-photo-2469122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['品牌建设', '视觉设计', '版本营销', 'IP营销'] // 修改：更新标签
+    tags: ['品牌建设', '视觉设计', '版本营销', 'IP营销']
   },
   {
-    id: 'pulse-fitness',
-    title: '渠道商店推广', // 修改：原为'Pulse健身应用'
-    category: '渠道与分发', // 修改：原为'社媒与社群'
-    description: '通过专业渠道策略和商店运营扩大产品曝光与下载转化。', // 修改：更新描述
+    id: 'store-promotion', // 修改：原为'pulse-fitness'
+    title: '渠道商店推广',
+    category: '渠道与分发',
+    description: '通过专业渠道策略和商店运营扩大产品曝光与下载转化。',
     image: 'https://images.pexels.com/photos/1103242/pexels-photo-1103242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['渠道商务', '渠道运营', '付费推广', '转化调优'] // 修改：更新标签
+    tags: ['渠道商务', '渠道运营', '付费推广', '转化调优']
   },
   {
-    id: 'artisan-cafe',
-    title: '创意服务', // 修改：原为'工匠咖啡厅'
-    category: '内容与创意', // 修改：原为'渠道与分发'
-    description: '策划与制作以增长为导向的高标准素材物料。', // 修改：更新描述
+    id: 'creative-services', // 修改：原为'artisan-cafe'
+    title: '创意服务',
+    category: '内容与创意',
+    description: '策划与制作以增长为导向的高标准素材物料。',
     image: 'https://images.pexels.com/photos/302902/pexels-photo-302902.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['广告素材', '宣传片', '平面设计', '网页设计'] // 修改：更新标签
+    tags: ['广告素材', '宣传片', '平面设计', '网页设计']
   },
   {
-    id: 'nomad-travel',
-    title: '内容营销', // 修改：原为'游牧旅行平台'
-    category: '内容与创意', // 修改：原为'策略与规划'
-    description: '创作与传播以增长为导向的高品质衍生内容。', // 修改：更新描述
+    id: 'content-marketing', // 修改：原为'nomad-travel'
+    title: '内容营销',
+    category: '内容与创意',
+    description: '创作与传播以增长为导向的高品质衍生内容。',
     image: 'https://images.pexels.com/photos/7625308/pexels-photo-7625308.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['内容创作', '种草运营', '达人营销', '直播运营'] // 修改：更新标签
+    tags: ['内容创作', '种草运营', '达人营销', '直播运营']
   },
   {
-    id: 'summit-events',
-    title: '联合营销', // 修改：原为'峰会活动'
-    category: '内容与创意', // 保持不变
-    description: '策划执行创新性IP合作、品牌联动、活动营销等。', // 修改：更新描述
+    id: 'co-marketing', // 修改：原为'summit-events'
+    title: '联合营销',
+    category: '内容与创意',
+    description: '策划执行创新性IP合作、品牌联动、活动营销等。',
     image: 'https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['IP合作', '品牌联动', '活动策划', '公关传播'] // 修改：更新标签
+    tags: ['IP合作', '品牌联动', '活动策划', '公关传播']
   },
   {
-    id: 'tech-summit-2024',
-    title: '社媒运营', // 修改：原为'科技峰会2024'
-    category: '社媒与社群', // 修改：原为'内容与创意'
-    description: '全平台社媒搭建与精细化运营，打造品牌官方沟通阵地。', // 修改：更新描述
+    id: 'social-media', // 修改：原为'tech-summit-2024'
+    title: '社媒运营',
+    category: '社媒与社群',
+    description: '全平台社媒搭建与精细化运营，打造品牌官方沟通阵地。',
     image: 'https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['账号运营', '内容创作', '数据分析', '竞品监测'] // 修改：更新标签
+    tags: ['账号运营', '内容创作', '数据分析', '竞品监测']
   },
   {
-    id: 'innovation-conference',
-    title: '社群管理', // 修改：原为'创新大会'
-    category: '社媒与社群', // 修改：原为'内容与创意'
-    description: '在官方社群及核心用户聚集地展开深度互动与关系维护。', // 修改：更新描述文本
+    id: 'community-management', // 修改：原为'innovation-conference'
+    title: '社群管理',
+    category: '社媒与社群',
+    description: '在官方社群及核心用户聚集地展开深度互动与关系维护。',
     image: 'https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['社群建设', '活动策划', '创作者运营'] // 修改：更新标签，注意这里只有3个标签
+    tags: ['社群建设', '活动策划', '创作者运营']
   }
 ];
 
