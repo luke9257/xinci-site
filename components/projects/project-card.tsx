@@ -64,11 +64,11 @@ export default function ProjectCard({ project, index = 0 }: ProjectCardProps) {
           </p>
           
           <div className="flex flex-wrap gap-2">
-            {project.tags.map(tag => (
+            {project.tags?.map(tag => (
               <span key={tag} className="text-xs px-2 py-1 bg-muted rounded-full">
                 {tag}
               </span>
-            ))}
+            )) || null}
           </div>
         </div>
       </motion.div>

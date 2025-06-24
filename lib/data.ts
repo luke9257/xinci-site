@@ -1,51 +1,67 @@
 export const projects = [
   {
     id: 'nova-finance',
-    title: 'Nova金融平台',
-    category: '策略与规划', // 原：网站开发
-    description: '具有高级分析和个性化洞察的现代银行界面。',
+    title: '新品上市策略', // 修改：原为'Nova金融平台'
+    category: '策略与规划',
+    description: '新款产品研发、测试到上线发布的全栈增长解决方案。', // 修改：更新描述
     image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['React', 'TypeScript', 'Tailwind CSS', '金融科技']
+    tags: ['市场与产品定位', 'GTM策略', '数据分析', '创意支持'] // 修改：更新标签
   },
   {
     id: 'eco-habitat',
-    title: '生态栖息地',
-    category: '内容与创意', // 原：品牌设计
-    description: '专注于环保生活的可持续住房项目的完整品牌形象设计。',
+    title: '品牌升级焕新', // 修改：原为'生态栖息地'
+    category: '策略与规划', // 修改：原为'内容与创意'
+    description: '经典产品围绕版本节点与核心圈层的整合营销战役。', // 修改：更新描述
     image: 'https://images.pexels.com/photos/2469122/pexels-photo-2469122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['品牌设计', 'Logo设计', '可持续发展']
+    tags: ['品牌建设', '视觉设计', '版本营销', 'IP营销'] // 修改：更新标签
   },
   {
     id: 'pulse-fitness',
-    title: 'Pulse健身应用',
-    category: '社媒与社群', // 原：移动开发
-    description: '具有个性化锻炼计划和营养指导的健身追踪应用程序。',
+    title: '渠道商店推广', // 修改：原为'Pulse健身应用'
+    category: '渠道与分发', // 修改：原为'社媒与社群'
+    description: '通过专业渠道策略和商店运营扩大产品曝光与下载转化。', // 修改：更新描述
     image: 'https://images.pexels.com/photos/1103242/pexels-photo-1103242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['React Native', '健康科技', '用户体验设计']
+    tags: ['渠道商务', '渠道运营', '付费推广', '转化调优'] // 修改：更新标签
   },
   {
     id: 'artisan-cafe',
-    title: '工匠咖啡厅',
-    category: '渠道与分发', // 原：品牌设计
-    description: '专注于精品咖啡的高端咖啡连锁店的品牌形象和室内设计。',
+    title: '创意服务', // 修改：原为'工匠咖啡厅'
+    category: '内容与创意', // 修改：原为'渠道与分发'
+    description: '策划与制作以增长为导向的高标准素材物料。', // 修改：更新描述
     image: 'https://images.pexels.com/photos/302902/pexels-photo-302902.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['品牌设计', '室内设计', '酒店餐饮']
+    tags: ['广告素材', '宣传片', '平面设计', '网页设计'] // 修改：更新标签
   },
   {
     id: 'nomad-travel',
-    title: '游牧旅行平台',
-    category: '策略与规划', // 原：网站开发
-    description: '为数字游牧者提供独特住宿选择的旅行预订平台。',
+    title: '内容营销', // 修改：原为'游牧旅行平台'
+    category: '内容与创意', // 修改：原为'策略与规划'
+    description: '创作与传播以增长为导向的高品质衍生内容。', // 修改：更新描述
     image: 'https://images.pexels.com/photos/7625308/pexels-photo-7625308.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['Next.js', '旅游科技', '界面设计']
+    tags: ['内容创作', '种草运营', '达人营销', '直播运营'] // 修改：更新标签
   },
   {
     id: 'summit-events',
-    title: '峰会活动',
-    category: '内容与创意', // 原：数字营销
-    description: '技术会议的数字化营销活动，包含交互式着陆页和社交媒体策略。',
+    title: '联合营销', // 修改：原为'峰会活动'
+    category: '内容与创意', // 保持不变
+    description: '策划执行创新性IP合作、品牌联动、活动营销等。', // 修改：更新描述
     image: 'https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['数字营销', '活动策划', '网页设计']
+    tags: ['IP合作', '品牌联动', '活动策划', '公关传播'] // 修改：更新标签
+  },
+  {
+    id: 'tech-summit-2024',
+    title: '社媒运营', // 修改：原为'科技峰会2024'
+    category: '社媒与社群', // 修改：原为'内容与创意'
+    description: '全平台社媒搭建与精细化运营，打造品牌官方沟通阵地。', // 修改：更新描述
+    image: 'https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    tags: ['账号运营', '内容创作', '数据分析', '竞品监测'] // 修改：更新标签
+  },
+  {
+    id: 'innovation-conference',
+    title: '社群管理', // 修改：原为'创新大会'
+    category: '社媒与社群', // 修改：原为'内容与创意'
+    description: '在官方社群及核心用户聚集地展开深度互动与关系维护。', // 修改：更新描述文本
+    image: 'https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    tags: ['社群建设', '活动策划', '创作者运营'] // 修改：更新标签，注意这里只有3个标签
   }
 ];
 

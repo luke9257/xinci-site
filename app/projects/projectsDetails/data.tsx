@@ -183,5 +183,67 @@ export const projects: Project[] = [
     ),
     image: 'https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['数字营销', '活动', '网页设计']
+  },
+  // 新增的第一个峰会活动详情页面
+  {
+    id: 'tech-summit-2024',
+    title: '科技峰会2024',
+    category: '数字营销',
+    description: (
+      <div>
+        <p style={{ color: '#4e5461' }}>科技峰会2024是一个综合性的数字营销项目，专注于为年度科技创新峰会打造全方位的品牌体验。通过整合创新的数字策略、用户体验设计和多渠道传播，为参会者创造了前所未有的互动体验。</p>
+        
+        <h3>数字营销策略</h3>
+        <ul>
+          <li style={{ color: '#4e5461' }}><strong>1. 品牌定位：</strong> 确立科技峰会的独特价值主张和市场定位</li>
+          <li style={{ color: '#4e5461' }}><strong>2. 目标受众分析：</strong> 深度分析科技行业专业人士的需求和行为模式</li>
+          <li style={{ color: '#4e5461' }}><strong>3. 内容策略：</strong> 制定涵盖预热、进行中和后续的全周期内容计划</li>
+          <li style={{ color: '#4e5461' }}><strong>4. 社交媒体矩阵：</strong> 跨平台的社交媒体传播策略和KOL合作</li>
+        </ul>
+        
+        <h3>用户体验设计</h3>
+        <ul>
+          <li style={{ color: '#4e5461' }}><strong>1. 响应式网站：</strong> 移动优先的峰会官网设计和开发</li>
+          <li style={{ color: '#4e5461' }}><strong>2. 注册流程优化：</strong> 简化的用户注册和支付体验</li>
+          <li style={{ color: '#4e5461' }}><strong>3. 互动功能：</strong> 实时问答、网络交流和议程定制功能</li>
+          <li style={{ color: '#4e5461' }}><strong>4. 数据可视化：</strong> 实时参会数据和反馈展示系统</li>
+        </ul>
+        
+        <p style={{ color: '#4e5461' }}>科技峰会2024项目成功地将传统会议模式转化为现代化的数字体验，不仅提升了参会者的满意度，还为主办方建立了强有力的品牌影响力和行业地位。</p>
+      </div>
+    ),
+    image: 'https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    tags: ['科技峰会', '品牌推广', '用户体验', '多渠道营销']
+  },
+  // 新增的第二个峰会活动详情页面
+  {
+    id: 'innovation-conference',
+    title: '创新大会',
+    category: '数字营销',
+    description: (
+      <div>
+        <p style={{ color: '#4e5461' }}>创新大会是一个突破性的数字化转型项目，致力于重新定义传统会议体验。通过融合最新的数字技术和创新的参与模式，为全球创新者打造了一个无界限的交流平台。</p>
+        
+        <h3>数字化转型策略</h3>
+        <ul>
+          <li style={{ color: '#4e5461' }}><strong>1. 混合会议模式：</strong> 无缝整合线上线下参会体验</li>
+          <li style={{ color: '#4e5461' }}><strong>2. 虚拟展厅：</strong> 3D虚拟空间展示和产品演示平台</li>
+          <li style={{ color: '#4e5461' }}><strong>3. AI智能匹配：</strong> 基于兴趣和专业背景的参会者智能推荐</li>
+          <li style={{ color: '#4e5461' }}><strong>4. 实时翻译：</strong> 多语言同声传译和字幕服务</li>
+        </ul>
+        
+        <h3>沉浸式体验设计</h3>
+        <ul>
+          <li style={{ color: '#4e5461' }}><strong>1. VR/AR技术：</strong> 虚拟现实演示和增强现实产品展示</li>
+          <li style={{ color: '#4e5461' }}><strong>2. 互动工作坊：</strong> 在线协作工具和实时头脑风暴平台</li>
+          <li style={{ color: '#4e5461' }}><strong>3. 个性化议程：</strong> AI驱动的个人兴趣推荐系统</li>
+          <li style={{ color: '#4e5461' }}><strong>4. 社交网络：</strong> 专属的参会者社交平台和持续连接</li>
+        </ul>
+        
+        <p style={{ color: '#4e5461' }}>创新大会项目开创了会议行业的新标准，通过技术创新和用户体验的完美结合，不仅扩大了会议的影响范围，还为参会者创造了更有价值和更具启发性的交流体验。</p>
+      </div>
+    ),
+    image: 'https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    tags: ['创新大会', '数字化转型', '沉浸式体验', '线上线下整合']
   }
-]
+];
