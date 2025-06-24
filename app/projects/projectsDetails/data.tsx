@@ -176,7 +176,7 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/9072205/pexels-photo-9072205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['IP合作', '品牌联动', '活动策划', '公关传播']
   },
   {
@@ -232,7 +232,7 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/7915392/pexels-photo-7915392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/7849508/pexels-photo-7849508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['社群建设', '活动策划', '创作者运营']
   }
 ];

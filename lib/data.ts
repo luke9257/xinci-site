@@ -45,7 +45,7 @@ export const projects = [
     title: '联合营销',
     category: '内容与创意',
     description: '策划执行创新性IP合作、品牌联动、活动营销等。',
-    image: 'https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/9072205/pexels-photo-9072205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['IP合作', '品牌联动', '活动策划', '公关传播']
   },
   {
@@ -62,7 +62,7 @@ export const projects = [
     title: '社群管理',
     category: '社媒与社群',
     description: '在官方社群及核心用户聚集地展开深度互动与关系维护。',
-    image: 'https://images.pexels.com/photos/7915392/pexels-photo-7915392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/7849508/pexels-photo-7849508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['社群建设', '活动策划', '创作者运营']
   }
 ];
