@@ -65,8 +65,8 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/2469122/pexels-photo-2469122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['品牌建设', '视觉设计', '版本营销', 'IP营销']
+    image: 'https://images.pexels.com/photos/11234306/pexels-photo-11234306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', // 修改：替换为新的图片地址
+    tags: ['内容创作', '种草运营', '达人营销', '直播运营']
   },
   {
     id: 'store-promotion',
@@ -121,7 +121,7 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/302902/pexels-photo-302902.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/8100055/pexels-photo-8100055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['广告素材', '宣传片', '平面设计', '网页设计']
   },
   {
