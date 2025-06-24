@@ -129,7 +129,7 @@ export default function ProjectsPage() {
               {
                 number: '01',
                 title: '发现',
-                description: '我们通过全面的研究和分析，首先了解您的业务、目标和挑战。',
+                description: '我们通过调研分析和客户访谈，首先了解您的产品、目标和挑战。',
                 icon: (
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6">
                     <circle cx="11" cy="11" r="8"/>
@@ -140,7 +140,7 @@ export default function ProjectsPage() {
               {
                 number: '02',
                 title: '策略',
-                description: '基于我们的发现，我们制定符合您目标和市场机会的定制化策略。',
+                description: '基于我们的发现，量身定制符合您目标和市场机会的策略方案。',
                 icon: (
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6">
                     <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
@@ -149,8 +149,8 @@ export default function ProjectsPage() {
               },
               {
                 number: '03',
-                title: '创造',
-                description: '我们的团队通过创新的设计、开发和实施，将策略转化为现实。',
+                title: '执行',
+                description: '我们的团队通过市场调研、内容制作与用户运营，将策略转化为现实。',
                 icon: (
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6" style={{filter: 'drop-shadow(0 0 1px rgba(221, 78, 82, 0.3))'}}>
                     <rect x="3" y="3" width="18" height="18" rx="2" ry="2" strokeWidth="1.5"/>
@@ -161,7 +161,7 @@ export default function ProjectsPage() {
               {
                 number: '04',
                 title: '优化',
-                description: '我们持续监控、测试和完善，确保最佳性能和最大影响力。',
+                description: '我们持续监测、调优与迭代，确保投入以数据为导向、最大化增长效率。',
                 icon: (
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6" style={{filter: 'drop-shadow(0 0 1px rgba(221, 78, 82, 0.3))'}}>
                     {/* 上方箭头 */}
