@@ -4,23 +4,24 @@ export const projects = [
     title: '新品上市策略',
     category: '策略与规划',
     description: '新款产品研发、测试到上线发布的全栈增长解决方案。',
-    image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/6476193/pexels-photo-6476193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['市场与产品定位', 'GTM策略', '数据分析', '创意支持']
   },
   {
     id: 'brand-strategy', // 修改：原为'eco-habitat'
     title: '品牌升级焕新',
     category: '策略与规划',
-    description: '经典产品围绕版本节点与核心圈层的整合营销战役。',
-    image: 'https://images.pexels.com/photos/2469122/pexels-photo-2469122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['品牌建设', '视觉设计', '版本营销', 'IP营销']
+    description: '围绕IP或系列作产品的品牌形象升级与用户认知焕新。',
+    image: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', // 修改：替换为新的图片地址
+    tags: ['品牌策略', '视觉升级', '用户认知', '情感连接'],
+    featured: true,
   },
   {
     id: 'store-promotion', // 修改：原为'pulse-fitness'
     title: '渠道商店推广',
     category: '渠道与分发',
     description: '通过专业渠道策略和商店运营扩大产品曝光与下载转化。',
-    image: 'https://images.pexels.com/photos/1103242/pexels-photo-1103242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['渠道商务', '渠道运营', '付费推广', '转化调优']
   },
   {
@@ -28,7 +29,7 @@ export const projects = [
     title: '创意服务',
     category: '内容与创意',
     description: '策划与制作以增长为导向的高标准素材物料。',
-    image: 'https://images.pexels.com/photos/302902/pexels-photo-302902.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/8100055/pexels-photo-8100055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', // 修改：替换为新的图片地址
     tags: ['广告素材', '宣传片', '平面设计', '网页设计']
   },
   {
@@ -36,7 +37,7 @@ export const projects = [
     title: '内容营销',
     category: '内容与创意',
     description: '创作与传播以增长为导向的高品质衍生内容。',
-    image: 'https://images.pexels.com/photos/7625308/pexels-photo-7625308.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/11234306/pexels-photo-11234306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', // 修改：替换为新的图片地址
     tags: ['内容创作', '种草运营', '达人营销', '直播运营']
   },
   {
@@ -44,23 +45,24 @@ export const projects = [
     title: '联合营销',
     category: '内容与创意',
     description: '策划执行创新性IP合作、品牌联动、活动营销等。',
-    image: 'https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['IP合作', '品牌联动', '活动策划', '公关传播']
   },
   {
-    id: 'social-media', // 修改：原为'tech-summit-2024'
+    id: 'social-media', // 修改：原为'eco-smart'
     title: '社媒运营',
-    category: '社媒与社群',
+    category: '社媒与社群', // 修改：从'内容与创意'改为'社媒与社群'
     description: '全平台社媒搭建与精细化运营，打造品牌官方沟通阵地。',
-    image: 'https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    tags: ['账号运营', '内容创作', '数据分析', '竞品监测']
+    image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    tags: ['账号运营', '内容创作', '数据分析', '竞品监测'], // 修改：更新标签内容
+    featured: true,
   },
   {
     id: 'community-management', // 修改：原为'innovation-conference'
     title: '社群管理',
     category: '社媒与社群',
     description: '在官方社群及核心用户聚集地展开深度互动与关系维护。',
-    image: 'https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/7915392/pexels-photo-7915392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['社群建设', '活动策划', '创作者运营']
   }
 ];
