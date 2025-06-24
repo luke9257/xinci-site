@@ -11,7 +11,7 @@ export const projects = [
     id: 'brand-strategy', // 修改：原为'eco-habitat'
     title: '品牌升级焕新',
     category: '策略与规划',
-    description: '围绕IP或系列作产品的品牌形象升级与用户认知焕新。',
+    description: '经典产品围绕版本节点与核心圈层的整合营销战役。', // 修改：更新描述
     image: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['品牌建设', '视觉设计', '版本营销', 'IP营销'], // 修改：更新为新的标签
     featured: true,
