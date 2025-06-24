@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import { Instagram, Twitter, Linkedin, Github, ArrowUpRight } from 'lucide-react'
+import Link from 'next/link' // 添加Link组件导入
 
 export default function Footer() {
   return (
@@ -24,7 +24,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-muted-foreground max-w-xs">
-              释放游戏品牌的增长潜能。
+              释放游戏品牌的增长潜能
             </p>
             <div className="flex space-x-4 pt-2">
               <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
@@ -68,7 +68,7 @@ export default function Footer() {
           <div>
             <h4 className="font-medium text-lg mb-4">服务</h4>
             <ul className="space-y-3">
-              {['网站开发', '品牌识别', '用户体验设计', '数字营销', '内容创作'].map((item) => (
+              {['策略与规划', '渠道与分发', '内容与创意', '社媒与社群'].map((item) => (
                 <li key={item}>
                   <Link 
                     href="#"
