@@ -5,8 +5,9 @@ import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
 
 export const metadata: Metadata = {
-  title: '新词 | Creative Agency',
-  description: 'We create digital experiences that elevate your brand',
+  title: '新词 | 游戏营销机构 | 您的外部发行团队',
+  description: '我们为重视长久用户关系的游戏厂商，提供务实且长效的增长解决方案。',
+  keywords: ['游戏营销', '游戏发行', '内容营销', '创意机构', '外部发行团队', '创意服务', '渠道发行']
 };
 
 export default function RootLayout({
