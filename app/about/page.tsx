@@ -65,7 +65,7 @@ export default function AboutPage() {
               {
                 year: '进化',
                 title: '专业进化',
-                description: '我们深知游戏的成功是一项系统性工程。为此，新词提供从市场研究、发行策略到营销增长、品牌战略的全链路服务。我们的能力矩阵也跟随行业持续进化。',
+                description: '我们深知游戏的成功是一项系统性工程。为此，新词提供从市场研究、发行策略到增长、品牌的全链路服务，并随行业持续进化我们的能力矩阵。',
                 image: 'https://images.pexels.com/photos/7915241/pexels-photo-7915241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
               },
               {
@@ -77,7 +77,7 @@ export default function AboutPage() {
               {
                 year: '共鸣',
                 title: '共鸣致远',
-                description: '简而言之，新词的一切行动都围绕着我们的核心使命：助力游戏从业者，掌握长效经营之道。若我们的理念能让您产生共鸣，也热切期待与您深入交流。',
+                description: '新词的一切行动都围绕着我们的核心使命：助力游戏从业者，掌握长效经营之道。若我们的理念能让您产生共鸣，也热切期待与您深入交流。',
                 image: 'https://images.pexels.com/photos/3391378/pexels-photo-3391378.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
               }
             ].map((milestone, index) => (
