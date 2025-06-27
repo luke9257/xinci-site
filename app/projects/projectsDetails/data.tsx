@@ -158,7 +158,7 @@ export const projects: Project[] = [
     description: (
       <div>
         <p style={{ color: '#4e5461' }}>策划并执行创新性跨界合作（与其他IP、品牌）、品牌联动、线上线下事件营销、赛事及展会活动等，引爆市场话题度，扩大品牌影响网络，大幅度提升营销效率与转化。</p>
-        <h3>跨界联动营销</h3>
+        <h3>跨界合作营销</h3>
         <p style={{ color: '#4e5461' }}>通过与其他IP、品牌的创新性合作，实现产品的品牌价值互补与放大。</p>
         <ul>
           <li style={{ color: '#4e5461' }}><strong>1. IP跨界合作：</strong> 与合作IP进行联名推广，借助IP影响力扩大产品受众群体。</li>
@@ -166,11 +166,11 @@ export const projects: Project[] = [
           <li style={{ color: '#4e5461' }}><strong>3. 合作内容创新：</strong> 设计独特的合作形式和内容，提升合作的话题性和传播效果。</li>
           <li style={{ color: '#4e5461' }}><strong>4. 联合营销推广：</strong> 整合双方资源，开展联合营销活动，最大化合作价值。</li>
         </ul>
-        <h3>赛事展会营销</h3>
-        <p style={{ color: '#4e5461' }}>通过参与或举办赛事、展会、活动等，制造市场话题，提升品牌关注度。</p>
+        <h3>会展活动营销</h3>
+        <p style={{ color: '#4e5461' }}>通过参与或举办会展、活动、赛事等，制造市场话题，提升品牌关注度。</p>
         <ul>
-          <li style={{ color: '#4e5461' }}><strong>1. 赛事合作营销：</strong> 赞助或参与电竞赛事、体育赛事等，借助赛事影响力扩大品牌曝光。</li>
-          <li style={{ color: '#4e5461' }}><strong>2. 展会参展策划：</strong> 参加行业展会和消费展览，通过现场展示提升产品认知度。</li>
+          <li style={{ color: '#4e5461' }}><strong>1. 会务会展策划：</strong> 参加行业会展和消费展览，通过现场展示提升产品认知度。</li>
+          <li style={{ color: '#4e5461' }}><strong>2. 赛事合作营销：</strong> 赞助或参与电竞、体育赛事等，借助赛事影响力扩大品牌曝光。</li>
           <li style={{ color: '#4e5461' }}><strong>3. 现场活动执行：</strong> 举办线下体验活动、发布会等，增强用户与产品的直接互动。</li>
           <li style={{ color: '#4e5461' }}><strong>4. 活动传播放大：</strong> 通过多渠道传播活动内容，扩大活动影响力和品牌声量。</li>
         </ul>
@@ -228,7 +228,6 @@ export const projects: Project[] = [
           <li style={{ color: '#4e5461' }}><strong>2. 用户创作扶持：</strong> 建立创作扶持机制，组织内容共创活动，激励优质UGC产出。</li>
           <li style={{ color: '#4e5461' }}><strong>3. 用户激励体系：</strong> 建立积分、等级、特权等激励机制，促进用户活跃。</li>
           <li style={{ color: '#4e5461' }}><strong>4. 社区规范管理：</strong> 制定明确的准则来规范社区行为，维护良好的社区环境。</li>
-          <li style={{ color: '#4e5461' }}><strong>5. 社区自治建设：</strong> 培养社区管理员，建立用户自治机制。</li>
         </ul>
       </div>
     ),
