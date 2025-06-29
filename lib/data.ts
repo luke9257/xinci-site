@@ -9,7 +9,7 @@ export const projects = [
   },
   {
     id: 'brand-strategy', // 修改：原为'eco-habitat'
-    title: '品牌升级焕新',
+    title: '品牌焕新升级',
     category: '策略与规划',
     description: '经典产品围绕版本节点与核心圈层的整合营销战役。', // 修改：更新描述
     image: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
