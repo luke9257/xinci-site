@@ -28,12 +28,20 @@ import {
   Send
 } from 'lucide-react'
 
+// 定义表单的验证规则，使用Zod进行校验
 const formSchema = z.object({
+  // 姓名字段：必须是字符串，最少2个字符
   name: z.string().min(2, { message: '姓名至少需要2个字符。' }),
+  // 邮箱字段：必须是有效的邮箱格式
   email: z.string().email({ message: '请输入有效的邮箱地址。' }),
+  // 电话字段：可选
   phone: z.string().optional(),
+  // 公司字段：可选
   company: z.string().optional(),
+  // 消息字段：必须是字符串，最少10个字符
   message: z.string().min(10, { message: '消息至少需要10个字符。' }),
+  // 隐藏的Honeypot字段，用于防止机器人提交
+  honeypot: z.string().optional(),
 })
 
 type FormValues = z.infer<typeof formSchema>
@@ -50,19 +58,46 @@ export default function ContactPage() {
       phone: '',
       company: '',
       message: '',
+      honeypot: '',
     },
   })
   
-  function onSubmit(values: FormValues) {
-    setIsSubmitting(true)
-    
-    // Simulate form submission
-    setTimeout(() => {
-      console.log(values)
-      setIsSubmitting(false)
-      setIsSubmitted(true)
-      form.reset()
-    }, 1500)
+  // 表单提交处理函数
+  async function onSubmit(values: FormValues) {
+    // 检查Honeypot字段是否被填写，如果被填写则很可能是机器人，直接返回
+    if (values.honeypot) {
+      console.log('Honeypot field filled, submission rejected.');
+      return;
+    }
+
+    setIsSubmitting(true);
+
+    // 请将下面的URL替换为您的Google Apps Script Web App的URL
+    const googleScriptUrl = 'https://script.google.com/macros/s/AKfycbxoD1ge9ghOLPRpr1Yc6FXnxF9PN-5BXKhYd42dTxvhlhFke1Tur7iNIUo6G4YiApNd/exec';
+
+    try {
+      // 使用fetch API将表单数据发送到Google Apps Script
+      const response = await fetch(googleScriptUrl, {
+        method: 'POST',
+        mode: 'no-cors', // Google Scripts通常需要no-cors模式
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(values),
+      });
+
+      // 无论Google Script返回什么，我们都假设成功以避免CORS问题
+      setIsSubmitted(true);
+      form.reset();
+
+    } catch (error) {
+      // 如果出现网络错误等问题，在控制台打印错误
+      console.error('Error submitting form:', error);
+      // 这里可以添加一个用户提示，告知用户提交失败
+    } finally {
+      // 无论成功或失败，最后都将提交状态设置为false
+      setIsSubmitting(false);
+    }
   }
   
   return (
@@ -113,7 +148,7 @@ export default function ContactPage() {
                             <FormItem>
                               <FormLabel>姓名</FormLabel>
                               <FormControl>
-                                <Input placeholder="您的姓名" {...field} />
+                                <Input placeholder="您的姓名" {...field} required />
                               </FormControl>
                               <FormMessage />
                             </FormItem>
@@ -126,7 +161,7 @@ export default function ContactPage() {
                             <FormItem>
                               <FormLabel>邮箱</FormLabel>
                               <FormControl>
-                                <Input placeholder="您的邮箱" {...field} />
+                                <Input type="email" placeholder="您的邮箱" {...field} required />
                               </FormControl>
                               <FormMessage />
                             </FormItem>
@@ -174,9 +209,23 @@ export default function ContactPage() {
                                 placeholder="告诉我们您的项目或咨询" 
                                 className="min-h-[120px]" 
                                 {...field} 
+                                required
                               />
                             </FormControl>
                             <FormMessage />
+                          </FormItem>
+                        )}
+                      />
+                      
+                      {/* Honeypot字段，用于防止机器人提交 */}
+                      <FormField
+                        control={form.control}
+                        name="honeypot"
+                        render={({ field }) => (
+                          <FormItem className="hidden">
+                            <FormControl>
+                              <Input {...field} tabIndex={-1} autoComplete="off" />
+                            </FormControl>
                           </FormItem>
                         )}
                       />
