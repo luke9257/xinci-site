@@ -84,7 +84,7 @@ export default function ContactPage() {
         variant: "destructive",
         title: "配置错误",
         description: "表单提交服务未正确配置，请联系管理员。",
-        icon: <AlertCircle className="h-5 w-5" />
+
       });
       setIsSubmitting(false);
       return;
@@ -108,7 +108,6 @@ export default function ContactPage() {
       toast({
         title: "提交成功",
         description: "我们已收到您的消息，将尽快与您联系。",
-        icon: <Send className="h-5 w-5" />
       });
 
     } catch (error) {
@@ -117,7 +116,6 @@ export default function ContactPage() {
         variant: "destructive",
         title: "提交失败",
         description: "抱歉，提交表单时出现错误。请稍后重试或通过其他方式联系我们。",
-        icon: <AlertCircle className="h-5 w-5" />
       });
     } finally {
       // 无论成功或失败，最后都将提交状态设置为false
