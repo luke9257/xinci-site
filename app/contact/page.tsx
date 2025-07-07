@@ -75,8 +75,9 @@ export default function ContactPage() {
 
     setIsSubmitting(true);
 
-    // 从环境变量获取 Google Script URL
-    const googleScriptUrl = process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL;
+    // 直接在此处添加您的 Google Apps Script URL
+    // 替换 'YOUR_GOOGLE_SCRIPT_URL_HERE' 为您部署后得到的实际 URL
+    const googleScriptUrl = 'https://script.google.com/macros/s/AKfycbxoD1ge9ghOLPRpr1Yc6FXnxF9PN-5BXKhYd42dTxvhlhFke1Tur7iNIUo6G4YiApNd/exec';
     
     if (!googleScriptUrl) {
       console.error('Google Script URL is not configured');
