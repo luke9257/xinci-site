@@ -7,6 +7,7 @@ import { useForm } from 'react-hook-form'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
+import { useToast } from '@/hooks/use-toast'
 import {
   Form,
   FormControl,
@@ -25,7 +26,8 @@ import {
   Instagram, 
   Twitter, 
   Linkedin, 
-  Send
+  Send,
+  AlertCircle
 } from 'lucide-react'
 
 // 定义表单的验证规则，使用Zod进行校验
@@ -49,6 +51,7 @@ type FormValues = z.infer<typeof formSchema>
 export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const { toast } = useToast()
   
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
@@ -72,8 +75,20 @@ export default function ContactPage() {
 
     setIsSubmitting(true);
 
-    // 请将下面的URL替换为您的Google Apps Script Web App的URL
-    const googleScriptUrl = 'https://script.google.com/macros/s/AKfycbxoD1ge9ghOLPRpr1Yc6FXnxF9PN-5BXKhYd42dTxvhlhFke1Tur7iNIUo6G4YiApNd/exec';
+    // 从环境变量获取 Google Script URL
+    const googleScriptUrl = process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL;
+    
+    if (!googleScriptUrl) {
+      console.error('Google Script URL is not configured');
+      toast({
+        variant: "destructive",
+        title: "配置错误",
+        description: "表单提交服务未正确配置，请联系管理员。",
+        icon: <AlertCircle className="h-5 w-5" />
+      });
+      setIsSubmitting(false);
+      return;
+    }
 
     try {
       // 使用fetch API将表单数据发送到Google Apps Script
@@ -86,14 +101,24 @@ export default function ContactPage() {
         body: JSON.stringify(values),
       });
 
-      // 无论Google Script返回什么，我们都假设成功以避免CORS问题
+      // 由于CORS限制，我们无法获取具体的响应状态
+      // 但我们可以假设如果没有抛出错误，就是成功的
       setIsSubmitted(true);
       form.reset();
+      toast({
+        title: "提交成功",
+        description: "我们已收到您的消息，将尽快与您联系。",
+        icon: <Send className="h-5 w-5" />
+      });
 
     } catch (error) {
-      // 如果出现网络错误等问题，在控制台打印错误
       console.error('Error submitting form:', error);
-      // 这里可以添加一个用户提示，告知用户提交失败
+      toast({
+        variant: "destructive",
+        title: "提交失败",
+        description: "抱歉，提交表单时出现错误。请稍后重试或通过其他方式联系我们。",
+        icon: <AlertCircle className="h-5 w-5" />
+      });
     } finally {
       // 无论成功或失败，最后都将提交状态设置为false
       setIsSubmitting(false);
