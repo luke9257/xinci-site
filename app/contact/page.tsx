@@ -135,7 +135,7 @@ export default function ContactPage() {
               联系我们
             </h1>
             <p className="text-xl text-muted-foreground">
-              我们很乐意听到您的声音。让我们开始讨论您的下一个项目。
+              期待了解您的项目，探讨如何助您达成目标。欢迎分享、咨询、交流。
             </p>
           </div>
         </div>
