@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Testing
+/.nyc_output
+/coverage
+
+# Next.js build output
+.next/
+out/
+
+# Production build files
+production/
+
+# Miscellaneous
+.DS_Store
+*.pem
+
+# Local env files
+.env*.local
+
+# VSCode
+.vscode/
+
+# Bolt
+.bolt/
