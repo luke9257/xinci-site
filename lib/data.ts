@@ -93,29 +93,23 @@ export const testimonials = [
 
 export const team = [
   {
-    name: '亚历克斯·摩根',
-    title: '创始人兼创意总监',
-    bio: '在设计和品牌领域拥有超过15年的经验，亚历克斯创立了Ascent，致力于将战略思维与卓越设计相结合。',
-    image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    name: 'Luke',
+    title: '创始人兼策划负责人',
+    bio: '在市场和发行领域拥有超过12年的经验，致力于打造产品增长网络。',
+    image: '/team/avatar1.jpg'
   },
   {
-    name: '杰米·威尔逊',
-    title: '技术总监',
-    bio: '杰米为每个项目带来技术卓越和创新，在网站开发和新兴技术方面拥有深厚的专业知识。',
-    image: 'https://images.pexels.com/photos/2380794/pexels-photo-2380794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    name: 'Leo',
+    title: '渠道负责人',
+    bio: '专注渠道推广10年以上，在手机与PC渠道发行方面拥有深厚经验。',
+    image: '/team/avatar2.jpg'
   },
   {
-    name: '泰勒·金',
-    title: '设计主管',
-    bio: '一位充满激情且注重细节的设计师，泰勒创造出与用户产生共鸣的美观且实用的体验。',
-    image: 'https://images.pexels.com/photos/2613260/pexels-photo-2613260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    name: 'Joana​',
+    title: '媒介负责人',
+    bio: '兼具项目管理与商务能力的市场专家，尤其擅长产品整合营销推广。',
+    image: '/team/avatar3.jpg'
   },
-  {
-    name: '摩根·里维拉',
-    title: '策略总监',
-    bio: '摩根制定引人入胜的品牌策略和叙述，以有意义的方式将企业与其受众联系起来。',
-    image: 'https://images.pexels.com/photos/1181391/pexels-photo-1181391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-  }
 ];
 
 export const partners = [

@@ -192,10 +192,12 @@ export default function AboutPage() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {team.map((member, index) => (
-              <div key={index} className="group">
-                <div className="relative mb-6 overflow-hidden rounded-lg aspect-[3/4]">
+          {/* 团队成员卡片 - 3个成员，小图样式 */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {team.slice(0, 3).map((member, index) => (
+              <div key={index} className="group text-center">
+                {/* 小图样式 - 圆形头像，尺寸再次增加20% */}
+                 <div className="relative mb-4 mx-auto w-36 h-36 overflow-hidden rounded-full">
                   <Image
                     src={member.image}
                     alt={member.name}
