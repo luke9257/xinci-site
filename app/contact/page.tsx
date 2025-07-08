@@ -275,7 +275,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-medium mb-1">邮箱</h3>
                       <a href="mailto:hello@ascent.com" className="text-muted-foreground hover:text-foreground transition-colors">
-                        hello@ascent.com
+                        bd@xinci.site
                       </a>
                     </div>
                   </div>
@@ -286,8 +286,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-medium mb-1">电话</h3>
-                      <a href="tel:+14155555555" className="text-muted-foreground hover:text-foreground transition-colors">
-                        +1 (415) 555-5555
+                      <a href="tel:+86 17764204335" className="text-muted-foreground hover:text-foreground transition-colors">
+                        +86 17764204335
                       </a>
                     </div>
                   </div>
@@ -299,9 +299,9 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-medium mb-1">地址</h3>
                       <address className="not-italic text-muted-foreground">
-                        123 Design Street<br />
-                        San Francisco, CA 94103<br />
-                        United States
+                        武汉市洪山区，<br />
+                        光谷大道3号，<br />
+                        未来之光6栋12层
                       </address>
                     </div>
                   </div>
@@ -320,7 +320,7 @@ export default function ContactPage() {
                   </div>
                 </div>
                 
-                <div className="mt-8 pt-8 border-t border-border">
+                {/* <div className="mt-8 pt-8 border-t border-border">
                   <h3 className="font-medium mb-4">关注我们</h3>
                   <div className="flex space-x-4">
                     <Link href="#" className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center hover:bg-muted transition-colors">
@@ -336,7 +336,7 @@ export default function ContactPage() {
                       <span className="sr-only">LinkedIn</span>
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </div>
               
               <div className="h-[300px] relative rounded-lg overflow-hidden">
@@ -368,27 +368,27 @@ export default function ContactPage() {
             {[
               {
                 question: '您提供哪些服务？',
-                answer: '我们提供全面的服务，包括策略方案、创意制作、内容营销、IP营销、社媒社群运营和渠道推广。每项服务都根据您的具体需求量身定制。'
+                answer: '我们提供全面的服务，包括策略方案、创意制作、内容营销、IP营销、社媒社群和渠道推广。每项服务都根据客户需求量身定制。'
               },
               {
                 question: '您的服务费用是多少？',
-                answer: '我们的定价依据每个项目的范围和要求来确定。在咨询了解您的具体需求后，我们会提供详细报价。'
+                answer: '我们的定价依据每个项目的范围和要求来确定。在咨询了解具体需求后，我们会提供详细报价。'
               },
               {
                 question: '一个典型项目需要多长时间？',
-                answer: '项目时间线因复杂性和范围而异。一条的广告视频可能需要2-3天，而全面的产品发行和营销战役可能需要3-5个月。我们会在初步讨论中提供时间线估算。'
+                answer: '项目时间线因复杂性和范围而异。一条广告视频可能需要2-3天，而全面的产品发行和营销战役可能需要3-5个月。我们会在初步讨论中提供时间线估算。'
               },
               {
                 question: '您与国际客户合作吗？',
-                answer: '是的，我们与全球客户合作。我们的协作流程和工具使我们能够与客户有效合作，无论地理位置如何。我们已成功为亚洲和欧洲的客户完成项目。'
+                answer: '是的，我们与全球客户合作。我们的协作流程和工具使我们能够与客户进行远程合作。无论地理位置如何，都能有效展开。'
               },
               {
                 question: '您的项目流程是什么？',
-                answer: '我们的流程通常包括发现、策略、执行以及迭代调优。我们在整个过程中保持清晰的沟通，并让您参与关键决策，以确保最终交付符合您的愿景。'
+                answer: '我们的流程通常包括诊断、策略、执行以及优化。我们在整个过程中保持清晰的沟通，并让您参与关键决策，以确保最终交付符合您的愿景。'
               },
               {
                 question: '项目完成后您提供持续支持吗？',
-                answer: '是的，我们提供各种支持和维护套餐，以保持您的产品持续增长。我们可以在项目规划期间讨论适合您需求的支持选项。'
+                answer: '是的，我们提供各种支持和维护套餐，以保持您的产品长效增长。我们可以在项目规划期间讨论适合您需求的支持选项。'
               }
             ].map((faq, index) => (
               <div key={index} className="bg-card rounded-lg border border-border p-6">

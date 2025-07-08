@@ -26,7 +26,8 @@ export default function Footer() {
             <p className="text-muted-foreground max-w-xs">
               释放游戏品牌的增长潜能
             </p>
-            <div className="flex space-x-4 pt-2">
+            {/* 社交媒体图标已隐藏 */}
+            {/* <div className="flex space-x-4 pt-2">
               <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
@@ -43,7 +44,7 @@ export default function Footer() {
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Link>
-            </div>
+            </div> */}
           </div>
           
           <div>
@@ -84,16 +85,15 @@ export default function Footer() {
           <div>
             <h4 className="font-medium text-lg mb-4">联系方式</h4>
             <address className="not-italic text-muted-foreground space-y-3">
-              <p>123 Design Street</p>
-              <p>旧金山，加利福尼亚州 94103</p>
-              <p className="pt-2">
-                <a href="mailto:hello@新词.com" className="hover:text-foreground transition-colors">
-                  hello@新词.com
+              <p>武汉市光谷大道3号未来之光6-12</p>
+              <p>
+                <a href="mailto:bd@xinci.site" className="hover:text-foreground transition-colors">
+                  bd@xinci.site
                 </a>
               </p>
               <p>
-                <a href="tel:+14155555555" className="hover:text-foreground transition-colors">
-                  +1 (415) 555-5555
+                <a href="tel:+86 17764204335" className="hover:text-foreground transition-colors">
+                  +86 17764204335
                 </a>
               </p>
             </address>
