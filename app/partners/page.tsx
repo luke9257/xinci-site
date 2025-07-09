@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ArrowRight } from 'lucide-react'
-import { partners } from '@/lib/data'
+import { gamePartners, companyPartners } from '@/lib/data'
 
 export default function PartnersPage() {
   return (
@@ -14,39 +14,86 @@ export default function PartnersPage() {
             <h1 className="font-playfair text-4xl md:text-5xl font-bold mb-6">
               我们的合作案例
             </h1>
-            <p className="text-xl text-muted-foreground mb-8">
+            <p className="text-xl text-muted-foreground mb-4">
               我们助力开发者、发行商和全球工作室，为其游戏和品牌提供支持。
+            </p>
+            <p className="text-xs text-muted-foreground/70 mb-0 italic px-2 py-1 rounded-full inline-block bg-muted">
+              仅展示部分信息，排名不分先后
             </p>
           </div>
         </div>
       </section>
       
-      {/* Partners Grid */}
+      {/* 游戏品牌合作案例 */}
+      <section className="pb-16">
+        <div className="container px-4 md:px-6">
+          <div className="mb-12">
+            <div className="text-center mb-4">
+              <Button
+                variant="outline"
+                size="sm"
+                className="rounded-full border-primary text-primary hover:bg-primary/10"
+              >
+                游戏品牌
+              </Button>
+            </div>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+             {gamePartners.map((partner, index) => (
+               <div key={index} className="group rounded-lg hover:shadow-lg transition-all duration-300 p-4 relative bg-card border border-border">
+                 <div className="h-16 relative flex items-center justify-center">
+                   <Image 
+                     src={partner.logo}
+                     alt={partner.name}
+                     width={100}
+                     height={50}
+                     className="object-contain transition-all duration-300"
+                     priority={index < 6}
+                   />
+                 </div>
+                 {/* 鼠标悬停显示标题 */}
+                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                     <h3 className="font-medium text-sm text-white text-center px-2">{partner.name}</h3>
+                   </div>
+               </div>
+             ))}           </div>
+
+         </div>
+       </section>
+
+       {/* 公司品牌合作案例 */}
       <section className="pb-24">
         <div className="container px-4 md:px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {partners.map((partner, index) => (
-              <div key={index} className="bg-card rounded-lg border border-border hover:border-primary/50 transition-all duration-300">
-                <div className="h-48 relative overflow-hidden">
-                  <Image 
-                    src={partner.logo}
-                    alt={partner.name}
-                    fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className="object-cover"
-                    priority={index < 3}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-transparent" />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-3">{partner.name}</h3>
-                  <p className="text-muted-foreground mb-6">{partner.description}</p>
-                  <blockquote className="border-l-2 border-primary pl-4 italic text-sm text-muted-foreground">
-                    "{partner.testimonial}"
-                  </blockquote>
-                </div>
-              </div>
-            ))}
+          <div className="mb-12">
+            <div className="text-center mb-4">
+              <Button
+                variant="outline"
+                size="sm"
+                className="rounded-full border-primary text-primary hover:bg-primary/10"
+              >
+                公司品牌
+              </Button>
+            </div>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+             {companyPartners.map((partner, index) => (
+               <div key={index} className="group rounded-lg hover:shadow-lg transition-all duration-300 p-4 relative bg-card border border-border">
+                 <div className="h-16 relative flex items-center justify-center">
+                   <Image 
+                     src={partner.logo}
+                     alt={partner.name}
+                     width={100}
+                     height={50}
+                     className="object-contain transition-all duration-300"
+                     priority={index < 6}
+                   />
+                 </div>
+                 {/* 鼠标悬停显示标题 */}
+                 <div className="absolute inset-0 bg-black/40 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                   <h3 className="font-medium text-sm text-white text-center px-2">{partner.name}</h3>
+                 </div>
+               </div>
+             ))}
           </div>
         </div>
       </section>

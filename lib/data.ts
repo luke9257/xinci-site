@@ -112,44 +112,88 @@ export const team = [
   },
 ];
 
-export const partners = [
+// 游戏品牌合作案例
+export const gamePartners = [
   {
-    name: '科技新星',
-    description: '引领可持续创新的leading技术公司。',
-    logo: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1600&h=1000&dpr=2',
-    testimonial: 'Ascent帮助我们完善了数字化形象，更好地体现了我们的创新方法。'
+    name: '王者荣耀',
+    category: '游戏品牌',
+    logo: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
+    description: 'MOBA手游'
   },
   {
-    name: '绿色地球',
-    description: '专注于保护和教育的环保非营利组织。',
-    logo: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1600&h=1000&dpr=2',
-    testimonial: '我们的合作使在线捐款和志愿者注册增加了40%。'
+    name: '原神',
+    category: '游戏品牌',
+    logo: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
+    description: '开放世界RPG'
   },
   {
-    name: '都市居住者',
-    description: '为紧凑型城市生活空间设计的现代家具。',
-    logo: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1600&h=1000&dpr=2',
-    testimonial: 'Ascent创造的品牌形象完美地体现了我们的美学和价值观。'
+    name: '和平精英',
+    category: '游戏品牌',
+    logo: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
+    description: '战术竞技手游'
   },
   {
-    name: '脉动媒体',
-    description: '专注于新兴文化趋势的数字媒体公司。',
-    logo: 'https://images.pexels.com/photos/3182781/pexels-photo-3182781.jpeg?auto=compress&cs=tinysrgb&w=1600&h=1000&dpr=2',
-    testimonial: '与Ascent的合作改变了我们的内容策略和受众参与度。'
+    name: '英雄联盟',
+    category: '游戏品牌',
+    logo: 'https://images.pexels.com/photos/3182781/pexels-photo-3182781.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
+    description: 'MOBA端游'
   },
   {
-    name: '峰会金融',
-    description: '为数字经济提供进步金融服务。',
-    logo: 'https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1600&h=1000&dpr=2',
-    testimonial: 'Ascent为我们重新设计的网站使客户获取量增加了25%。'
+    name: '崩坏：星穹铁道',
+    category: '游戏品牌',
+    logo: 'https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
+    description: '回合制RPG'
   },
   {
-    name: '地平线健康',
-    description: '专注于便民远程医疗服务的医疗保健提供商。',
-    logo: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1600&h=1000&dpr=2',
-    testimonial: 'Ascent帮助我们应对了创建直观远程医疗平台的复杂挑战。'
+    name: '明日方舟',
+    category: '游戏品牌',
+    logo: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
+    description: '策略塔防'
   }
 ];
+
+// 公司品牌合作案例
+export const companyPartners = [
+  {
+    name: '腾讯游戏',
+    category: '公司品牌',
+    logo: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
+    description: '游戏发行商'
+  },
+  {
+    name: 'miHoYo',
+    category: '公司品牌',
+    logo: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
+    description: '游戏开发商'
+  },
+  {
+    name: '网易游戏',
+    category: '公司品牌',
+    logo: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
+    description: '游戏发行商'
+  },
+  {
+    name: 'Riot Games',
+    category: '公司品牌',
+    logo: 'https://images.pexels.com/photos/3182781/pexels-photo-3182781.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
+    description: '游戏开发商'
+  },
+  {
+    name: '鹰角网络',
+    category: '公司品牌',
+    logo: 'https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
+    description: '游戏开发商'
+  },
+  {
+    name: '字节跳动',
+    category: '公司品牌',
+    logo: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
+    description: '互联网公司'
+  }
+];
+
+// 保持向后兼容性的合并数组
+export const partners = [...gamePartners, ...companyPartners];
 
 export const services = [
   {
