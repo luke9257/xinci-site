@@ -300,8 +300,7 @@ export default function ContactPage() {
                       <h3 className="font-medium mb-1">地址</h3>
                       <address className="not-italic text-muted-foreground">
                         武汉市洪山区，<br />
-                        光谷大道3号，<br />
-                        未来之光6栋12层
+                        光谷大道3号，未来之光6-12
                       </address>
                     </div>
                   </div>
@@ -388,7 +387,7 @@ export default function ContactPage() {
               },
               {
                 question: '项目完成后您提供持续支持吗？',
-                answer: '是的，我们提供各种支持和维护套餐，以保持您的产品长效增长。我们可以在项目规划期间讨论适合您需求的支持选项。'
+                answer: '是的，我们提供各种支持和维护套餐，以保持您的产品长效增长。我们会在项目规划期间讨论适合您需求的支持选项。'
               }
             ].map((faq, index) => (
               <div key={index} className="bg-card rounded-lg border border-border p-6">
