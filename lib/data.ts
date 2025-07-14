@@ -115,40 +115,76 @@ export const team = [
 // 游戏品牌合作案例
 export const gamePartners = [
   {
-    name: '王者荣耀',
+    name: '我本千金',
     category: '游戏品牌',
-    logo: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
-    description: 'MOBA手游'
+    logo: '/partners/wbqj-logo.png',
+    description: '女性向RPG'
   },
   {
-    name: '原神',
+    name: '宫廷秘传',
     category: '游戏品牌',
-    logo: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
-    description: '开放世界RPG'
+    logo: '/partners/gtmz-logo.png',
+    description: '女性向RPG'
   },
   {
-    name: '和平精英',
+    name: '塞尔之光',
     category: '游戏品牌',
-    logo: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
-    description: '战术竞技手游'
+    logo: '/partners/srzg-logo.png',
+    description: '冒险MMO手游'
   },
   {
-    name: '英雄联盟',
+    name: '最佳阵容',
     category: '游戏品牌',
-    logo: 'https://images.pexels.com/photos/3182781/pexels-photo-3182781.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
-    description: 'MOBA端游'
+    logo: '/partners/zjzr-logo.png',
+    description: '体育卡牌手游'
   },
   {
-    name: '崩坏：星穹铁道',
+    name: '少年三国志',
     category: '游戏品牌',
-    logo: 'https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
-    description: '回合制RPG'
+    logo: '/partners/snsgz-logo.png',
+    description: '三国卡牌手游'
   },
   {
-    name: '明日方舟',
+    name: '少年西游记',
     category: '游戏品牌',
-    logo: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
-    description: '策略塔防'
+    logo: '/partners/snxyj-logo.png',
+    description: '西游卡牌手游'
+  },
+  {
+    name: '桃花源记',
+    category: '游戏品牌',
+    logo: '/partners/thyj-logo.png',
+    description: '回合MMO手游'
+  },
+  {
+    name: '女神联盟',
+    category: '游戏品牌',
+    logo: '/partners/nslm-logo.png',
+    description: '魔幻RPG'
+  },
+  {
+    name: '极无双',
+    category: '游戏品牌',
+    logo: '/partners/jws-logo.png',
+    description: '无双动作手游'
+  },
+   {
+    name: '巅峰战舰',
+    category: '游戏品牌',
+    logo: '/partners/dfzj-logo.png',
+    description: 'TPS海战手游'
+  },
+  {
+    name: '一起来飞车',
+    category: '游戏品牌',
+    logo: '/partners/yqlfc-logo.png',
+    description: '3D竞速手游'
+  },
+  {
+    name: '影之刃2',
+    category: '游戏品牌',
+    logo: '/partners/yzr2-logo.png',
+    description: '横版格斗手游'
   }
 ];
 
@@ -157,38 +193,56 @@ export const companyPartners = [
   {
     name: '腾讯游戏',
     category: '公司品牌',
-    logo: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
+    logo: '/partners/TencentGames-logo.png',
     description: '游戏发行商'
-  },
-  {
-    name: 'miHoYo',
-    category: '公司品牌',
-    logo: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
-    description: '游戏开发商'
   },
   {
     name: '网易游戏',
     category: '公司品牌',
-    logo: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
+    logo: '/partners/NetEaseGames-logo.png',
     description: '游戏发行商'
   },
   {
-    name: 'Riot Games',
+    name: '米哈游',
     category: '公司品牌',
-    logo: 'https://images.pexels.com/photos/3182781/pexels-photo-3182781.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
+    logo: '/partners/mihoyo-logo.png',
     description: '游戏开发商'
   },
   {
-    name: '鹰角网络',
+    name: '叠纸游戏',
     category: '公司品牌',
-    logo: 'https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
+    logo: '/partners/papergames-logo.png',
     description: '游戏开发商'
   },
   {
-    name: '字节跳动',
+    name: '莉莉丝',
     category: '公司品牌',
-    logo: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&dpr=2',
-    description: '互联网公司'
+    logo: '/partners/lilith-logo.png',
+    description: '游戏发行商'
+  },
+  {
+    name: '英雄游戏',
+    category: '公司品牌',
+    logo: '/partners/herogames-logo.png',
+    description: '游戏发行商'
+  },
+  {
+    name: '游族网络',
+    category: '公司品牌',
+    logo: '/partners/YOOZOO-logo.png',
+    description: '游戏发行商'
+  },
+  {
+    name: '淘乐网络',
+    category: '公司品牌',
+    logo: '/partners/Taole-logo.png',
+    description: '游戏开发商'
+  },
+  {
+    name: '爱的番茄',
+    category: '公司品牌',
+    logo: '/partners/tomatogames-logo.png',
+    description: '游戏发行商'
   }
 ];
 

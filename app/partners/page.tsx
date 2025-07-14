@@ -40,19 +40,19 @@ export default function PartnersPage() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
              {gamePartners.map((partner, index) => (
-               <div key={index} className="group rounded-lg hover:shadow-lg transition-all duration-300 p-4 relative bg-card border border-border">
-                 <div className="h-16 relative flex items-center justify-center">
+               <div key={index} className="group rounded-lg hover:shadow-lg transition-all duration-300 p-4 relative bg-card dark:bg-slate-500 border border-border">
+                 <div className="h-20 relative flex items-center justify-center">
                    <Image 
                      src={partner.logo}
                      alt={partner.name}
-                     width={100}
-                     height={50}
+                     width={135}
+                     height={68}
                      className="object-contain transition-all duration-300"
                      priority={index < 6}
                    />
                  </div>
                  {/* 鼠标悬停显示标题 */}
-                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg">
                      <h3 className="font-medium text-sm text-white text-center px-2">{partner.name}</h3>
                    </div>
                </div>
@@ -77,19 +77,19 @@ export default function PartnersPage() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
              {companyPartners.map((partner, index) => (
-               <div key={index} className="group rounded-lg hover:shadow-lg transition-all duration-300 p-4 relative bg-card border border-border">
-                 <div className="h-16 relative flex items-center justify-center">
+               <div key={index} className="group rounded-lg hover:shadow-lg transition-all duration-300 p-4 relative bg-card dark:bg-slate-500 border border-border">
+                 <div className="h-20 relative flex items-center justify-center">
                    <Image 
                      src={partner.logo}
                      alt={partner.name}
-                     width={100}
-                     height={50}
+                     width={135}
+                     height={68}
                      className="object-contain transition-all duration-300"
                      priority={index < 6}
                    />
                  </div>
                  {/* 鼠标悬停显示标题 */}
-                 <div className="absolute inset-0 bg-black/40 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                 <div className="absolute inset-0 bg-black/60 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                    <h3 className="font-medium text-sm text-white text-center px-2">{partner.name}</h3>
                  </div>
                </div>

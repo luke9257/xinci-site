@@ -104,7 +104,17 @@ export default function Footer() {
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} 新词 All rights reserved.
           </p>
-
+          {/* 添加ICP备案号，靠右对齐 */}
+          <p className="text-sm text-muted-foreground mt-2 md:mt-0">
+            <a 
+              href="https://beian.miit.gov.cn/#/Integrated/index" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-foreground transition-colors"
+            >
+              鄂ICP备2024056268号-3
+            </a>
+          </p>
         </div>
       </div>
     </footer>
