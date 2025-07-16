@@ -81,19 +81,19 @@ export default function ProjectsPage() {
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 mr-2 text-primary">
                     <polyline points="20 6 9 17 4 12"/>
                   </svg>
-                  用户新增量级提升125%
+                  用户新增量级提升100%
                 </li>
                 <li className="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 mr-2 text-primary">
                     <polyline points="20 6 9 17 4 12"/>
                   </svg>
-                  产品流水收益提升100%
+                  产品流水收益提升95%
                 </li>
                 <li className="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 mr-2 text-primary">
                     <polyline points="20 6 9 17 4 12"/>
                   </svg>
-                  产品运营周期提升75%
+                  产品运营周期提升70%
                 </li>
               </ul>
               <Button asChild>
