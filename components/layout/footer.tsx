@@ -85,7 +85,7 @@ export default function Footer() {
           <div>
             <h4 className="font-medium text-lg mb-4">联系方式</h4>
             <address className="not-italic text-muted-foreground space-y-3">
-              <p>武汉市光谷大道3号未来之光6-12</p>
+              <p>武汉光谷大道3号未来之光6-12</p>
               <p>
                 <a href="mailto:info@xinci.site" className="hover:text-foreground transition-colors">
 info@xinci.site
