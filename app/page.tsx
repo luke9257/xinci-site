@@ -15,8 +15,8 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-background/40 dark:from-background/98 dark:via-background/90 dark:to-background/98 z-10" />
           <Image 
-            src="https://images.pexels.com/photos/682933/pexels-photo-682933.jpeg?auto=compress&cs=tinysrgb&w=1600" 
-            alt="Hero background" 
+            src="/about/pexels-photo-ltd.jpg" 
+            alt="新词官网" 
             fill 
             className="object-cover"
             priority
