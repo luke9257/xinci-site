@@ -275,7 +275,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-medium mb-1">邮箱</h3>
                       <a href="mailto:hello@ascent.com" className="text-muted-foreground hover:text-foreground transition-colors">
-                        bd@xinci.site
+                        info@xinci.site
                       </a>
                     </div>
                   </div>

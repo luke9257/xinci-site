@@ -87,8 +87,8 @@ export default function Footer() {
             <address className="not-italic text-muted-foreground space-y-3">
               <p>武汉市光谷大道3号未来之光6-12</p>
               <p>
-                <a href="mailto:bd@xinci.site" className="hover:text-foreground transition-colors">
-                  bd@xinci.site
+                <a href="mailto:info@xinci.site" className="hover:text-foreground transition-colors">
+info@xinci.site
                 </a>
               </p>
               <p>
