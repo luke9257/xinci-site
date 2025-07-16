@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { ArrowRight, ArrowUpRight, Users, BarChart, Code, PenTool } from 'lucide-react'
 import ProjectCard from '@/components/projects/project-card'
 import TestimonialSlider from '@/components/testimonial-slider'
-import { projects, partners } from '@/lib/data'
+import { projects } from '@/lib/data'
 import ScrollButton from '@/components/scroll-button'
 
 export default function Home() {
