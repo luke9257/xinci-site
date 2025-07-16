@@ -37,7 +37,7 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/6476193/pexels-photo-6476193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: '/projects/pexels-photo-1.jpg',
     tags: ['市场与产品定位', 'GTM策略', '数据分析', '创意支持']
   },
   {
@@ -65,7 +65,7 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: '/projects/pexels-photo-2.jpg',
     tags: ['品牌建设', '视觉设计', '版本营销', 'IP营销'] // 修改：更新为新的标签
   },
   {
@@ -93,7 +93,7 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: '/projects/pexels-photo-3.jpg',
     tags: ['渠道商务', '渠道运营', '付费推广', '转化调优']
   },
   {
@@ -121,7 +121,7 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/8100055/pexels-photo-8100055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: '/projects/pexels-photo-4.jpg',
     tags: ['广告素材', '宣传片', '平面设计', '网页设计']
   },
   {
@@ -148,7 +148,7 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/11234306/pexels-photo-11234306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: '/projects/pexels-photo-5.jpg',
     tags: ['内容创作', '种草运营', '达人营销', '直播运营']
   },
   {
@@ -176,7 +176,7 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/65767/pexels-photo-65767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: '/projects/pexels-photo-6.jpg',
     tags: ['IP合作', '品牌联动', '活动策划', '公关传播']
   },
   {
@@ -203,7 +203,7 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: '/projects/pexels-photo-7.jpg',
     tags: ['账号运营', '内容创作', '数据分析', '竞品监测']
   },
   {
@@ -231,7 +231,7 @@ export const projects: Project[] = [
         </ul>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/7849508/pexels-photo-7849508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: '/projects/pexels-photo-8.jpg',
     tags: ['社群建设', '活动策划', '创作者运营']
   }
 ];

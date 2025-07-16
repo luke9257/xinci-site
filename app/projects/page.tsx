@@ -81,7 +81,7 @@ export default function ProjectsPage() {
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 mr-2 text-primary">
                     <polyline points="20 6 9 17 4 12"/>
                   </svg>
-                  用户新增量级提升150%
+                  用户新增量级提升125%
                 </li>
                 <li className="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 mr-2 text-primary">
@@ -104,8 +104,8 @@ export default function ProjectsPage() {
             </div>
             <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
               <Image
-                src="https://images.pexels.com/photos/7988692/pexels-photo-7988692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="Nova Finance Platform"
+                src="/projects/pexels-photo-9.jpg"
+                alt="手游硬核渠道发行"
                 fill
                 className="object-cover"
               />

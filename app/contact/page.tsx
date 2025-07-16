@@ -340,8 +340,8 @@ export default function ContactPage() {
               
               <div className="h-[300px] relative rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  alt="Office location"
+                  src="/about/pexels-photo-16.jpg"
+                  alt="办公地址"
                   fill
                   className="object-cover"
                 />

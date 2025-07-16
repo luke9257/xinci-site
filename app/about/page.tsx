@@ -34,8 +34,8 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[400px] md:h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="https://images.pexels.com/photos/9072216/pexels-photo-9072216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="Team collaboration"
+                src="/about/pexels-photo-11.jpg"
+                alt="团队介绍"
                 fill
                 className="object-cover"
               />
@@ -60,25 +60,25 @@ export default function AboutPage() {
                 year: '缘起',
                 title: '缘起新词',
                 description: '新词，映射着一个时代的演进与文化的变迁。我们以此为名，自创立起便深度参与游戏行业，助力新锐产品的成功发布与经典产品的品牌焕新。',
-                image: 'https://images.pexels.com/photos/1637438/pexels-photo-1637438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+                image: '/about/pexels-photo-12.jpg'
               },
               {
                 year: '进化',
                 title: '专业进化',
                 description: '我们深知游戏的成功是一项系统性工程。为此，新词提供从市场研究、发行策略到增长、品牌的全链路服务，并随行业持续进化我们的能力矩阵。',
-                image: 'https://images.pexels.com/photos/7915241/pexels-photo-7915241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+                image: '/about/pexels-photo-13.jpg'
               },
               {
                 year: '洞见',
                 title: '洞见未来',
                 description: '新词不仅仅专注在幕后创造价值，也乐于公开发现和分享新见解。我们未来将开放游戏研究计划——与行业中优秀人才和核心品牌一同成长。',
-                image: 'https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+                image: '/about/pexels-photo-14.jpg'
               },
               {
                 year: '共鸣',
                 title: '共鸣致远',
                 description: '新词的一切行动都围绕着我们的核心使命：助力游戏从业者，掌握长效经营之道。若我们的理念能让您产生共鸣，也热切期待与您深入交流。',
-                image: 'https://images.pexels.com/photos/3391378/pexels-photo-3391378.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+                image: '/about/pexels-photo-15.jpg'
               }
             ].map((milestone, index) => (
               <div key={index} className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
