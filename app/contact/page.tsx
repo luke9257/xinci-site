@@ -313,7 +313,6 @@ export default function ContactPage() {
                       <h3 className="font-medium mb-1">工作时间</h3>
                       <p className="text-muted-foreground">
                         周一至周五：上午9点 - 下午6点<br />
-                        周六：上午10点 - 下午2点
                       </p>
                     </div>
                   </div>
