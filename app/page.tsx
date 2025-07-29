@@ -26,7 +26,7 @@ export default function Home() {
         <div className="container relative z-20 px-4 md:px-6">
           <div className="max-w-3xl">
             <h1 className="font-playfair text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight mb-6">
-              我们构建贯穿游戏生命周期的增长网络
+              我们构建贯穿产品生命周期的增长网络
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-xl">
               致力于为重视长久用户关系的合作厂商，提供务实且长效的增长解决方案。
@@ -59,7 +59,7 @@ export default function Home() {
             <div className="max-w-md mb-8 md:mb-0">
               <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-4">我们的能力</h2>
               <p className="text-muted-foreground whitespace-nowrap">
-                与厂商同频共振，以"外部发行团队"模式，提供全链路增长服务。
+                与厂商同频共振，以"业务增长伙伴"模式，提供全链路增长服务。
               </p>
             </div>
           </div>
@@ -69,7 +69,7 @@ export default function Home() {
               {
                 icon: <PenTool className="h-10 w-10" />,
                 title: '策略与规划',
-                description: '通过我们的策略组合，在您游戏的生命周期中产生持续影响。'
+                description: '通过我们的策略组合，在您产品的生命周期中产生持续影响。'
               },
               {
                 icon: <Code className="h-10 w-10" />,
@@ -79,7 +79,7 @@ export default function Home() {
               {
                 icon: <Users className="h-10 w-10" />,
                 title: '社媒与社群',
-                description: '将您的用户沉淀到活跃社群，并让游戏在社媒阵地广泛传播。'
+                description: '将您的用户沉淀到活跃社群，并让产品在社媒阵地广泛传播。'
               },
               {
                 icon: <BarChart className="h-10 w-10" />,

@@ -24,7 +24,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-muted-foreground max-w-xs">
-              释放游戏品牌的增长潜能
+              释放IP与品牌的增长潜能
             </p>
             {/* 社交媒体图标已隐藏 */}
             {/* <div className="flex space-x-4 pt-2">

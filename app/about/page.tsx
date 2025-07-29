@@ -16,7 +16,7 @@ export default function AboutPage() {
                 营销之术 · 玩者之心
               </h1>
               <p className="text-muted-foreground text-lg mb-6">
-                我们是一家提供全方位服务的<strong>游戏营销机构</strong>，由行业资深人士创立，拥有丰富的<strong>游戏发行经验</strong>和<strong>创意专家资源</strong>，并对游戏充满热情。我们秉持玩者之心，为重视长久用户关系的发行商、工作室和品牌提供增长服务。
+                我们是一家提供全方位服务的<strong>增长营销机构</strong>，由行业资深人士创立，拥有丰富的<strong>产品发行经验</strong>和<strong>创意专家资源</strong>，并对行业充满热情。我们秉持玩者之心，为重视长久用户关系的发行商、工作室和品牌提供增长服务。
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button asChild>
@@ -65,19 +65,19 @@ export default function AboutPage() {
               {
                 year: '进化',
                 title: '专业进化',
-                description: '我们深知游戏的成功是一项系统性工程。为此，新词提供从市场研究、发行策略到增长、品牌的全链路服务，并随行业持续进化我们的能力矩阵。',
+                description: '我们深知产品的成功是一项系统性工程。为此，新词提供从市场研究、发行策略到增长、品牌的全链路服务，并随行业持续进化我们的能力矩阵。',
                 image: '/about/pexels-photo-13.jpg'
               },
               {
                 year: '洞见',
                 title: '洞见未来',
-                description: '新词不仅仅专注在幕后创造价值，也乐于公开发现和分享新见解。我们未来将开放游戏研究计划——与行业中优秀人才和核心品牌一同成长。',
+                description: '新词不仅仅专注在幕后创造价值，也乐于公开发现和分享新见解。我们未来将开放专项研究计划——与行业中优秀人才和核心品牌一同成长。',
                 image: '/about/pexels-photo-14.jpg'
               },
               {
                 year: '共鸣',
                 title: '共鸣致远',
-                description: '新词的一切行动都围绕着我们的核心使命：助力游戏从业者，掌握长效经营之道。若我们的理念能让您产生共鸣，也热切期待与您深入交流。',
+                description: '新词的一切行动都围绕着我们的核心使命：助力行业从业者，掌握长效经营之道。若我们的理念能让您产生共鸣，也热切期待与您深入交流。',
                 image: '/about/pexels-photo-15.jpg'
               }
             ].map((milestone, index) => (
