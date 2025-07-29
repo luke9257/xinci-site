@@ -16,7 +16,7 @@ export default function AboutPage() {
                 营销之术 · 玩者之心
               </h1>
               <p className="text-muted-foreground text-lg mb-6">
-                我们是一家提供全方位服务的<strong>增长营销机构</strong>，由行业资深人士创立，拥有丰富的<strong>产品发行经验</strong>和<strong>创意专家资源</strong>，并对行业充满热情。我们秉持玩者之心，为重视长久用户关系的发行商、工作室和品牌提供增长服务。
+                我们是一家提供全方位服务的<strong>增长营销机构</strong>，由行业资深人士创立，拥有丰富的<strong>游戏发行经验</strong>和<strong>创意专家资源</strong>，并对行业充满热情。我们秉持玩者之心，为重视长久用户关系的发行商、工作室和品牌提供增长服务。
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button asChild>
