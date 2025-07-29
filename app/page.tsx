@@ -59,7 +59,7 @@ export default function Home() {
             <div className="max-w-md mb-8 md:mb-0">
               <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-4">我们的能力</h2>
               <p className="text-muted-foreground whitespace-nowrap">
-                与厂商同频共振，以"业务增长伙伴"模式，提供全链路增长服务。
+                与厂商同频共振，以"业务增长伙伴"模式提供全方位服务。
               </p>
             </div>
           </div>
