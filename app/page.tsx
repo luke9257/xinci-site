@@ -104,7 +104,7 @@ export default function Home() {
             <div className="max-w-md mb-8 md:mb-0">
               <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-4">服务项目</h2>
               <p className="text-muted-foreground">
-                精心设计与执行创新营销策略并展开发行支持。
+                精心设计与执行创新营销策略并展开增长支持。
               </p>
             </div>
             <Button variant="outline" asChild>
