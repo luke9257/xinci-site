@@ -102,7 +102,7 @@ info@xenci.com
         
         <div className="border-t border-border mt-16 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Xinci All rights reserved.
+            © {new Date().getFullYear()} Xenci All rights reserved.
           </p>
           {/* 添加ICP备案号，靠右对齐 */}
           <p className="text-sm text-muted-foreground mt-2 md:mt-0">
