@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "https://www.:domain/:path*",
+      "destination": "https://:domain/:path*",
+      "permanent": true
+    }
+  ]
+}
