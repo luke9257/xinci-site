@@ -112,7 +112,7 @@ info@xenci.com
               rel="noopener noreferrer"
               className="hover:text-foreground transition-colors"
             >
-              鄂ICP备2024056268号-3
+              鄂ICP备2024056268号-5
             </a>
           </p>
         </div>
