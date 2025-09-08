@@ -30,10 +30,10 @@ export const projects: Project[] = [
         <h3>GTM整合策略</h3>
         <p style={{ color: '#4e5461' }}>定制产品从研发到上线的全周期上市（Go-to-Market）蓝图。</p>
         <ul>
-          <li style={{ color: '#4e5461' }}><strong>5. 测试验证阶段：</strong> 产品内测与公测策略，收集用户反馈，优化产品体验。</li>
-          <li style={{ color: '#4e5461' }}><strong>6. 市场预热策略：</strong> 上线前造势传播，建立用户期待，积累首发用户基础。</li>
-          <li style={{ color: '#4e5461' }}><strong>7. 首发推广计划：</strong> 正式发布时的集中营销攻势，确保市场声量最大化。</li>
-          <li style={{ color: '#4e5461' }}><strong>8. 版本迭代策略：</strong> 大版本更新的推广节奏，持续保持产品热度和用户活跃。</li>
+          <li style={{ color: '#4e5461' }}><strong>1. 测试验证阶段：</strong> 产品内测与公测策略，收集用户反馈，优化产品体验。</li>
+          <li style={{ color: '#4e5461' }}><strong>2. 市场预热策略：</strong> 上线前造势传播，建立用户期待，积累首发用户基础。</li>
+          <li style={{ color: '#4e5461' }}><strong>3. 首发推广计划：</strong> 正式发布时的集中营销攻势，确保市场声量最大化。</li>
+          <li style={{ color: '#4e5461' }}><strong>4. 版本迭代策略：</strong> 大版本更新的推广节奏，持续保持产品热度和用户活跃。</li>
         </ul>
       </div>
     ),
@@ -53,7 +53,7 @@ export const projects: Project[] = [
           <li style={{ color: '#4e5461' }}><strong>1. 视觉系统焕新：</strong>设计Logo、字体等视觉元素，建立具有辨识度的品牌形象。</li>
           <li style={{ color: '#4e5461' }}><strong>2. 价值主张刷新：</strong>提炼并清晰化核心价值，确立更具吸引力和差异化的市场定位。</li>
           <li style={{ color: '#4e5461' }}><strong>3. 品牌个性定义：</strong>结合品牌故事与目标用户洞察，定义品牌个性与沟通风格。</li>
-          <li style={{ color: '#4e5461' }}><strong>4. 品牌资产建设：</strong>构建完整的品牌资产库，确保各触点形象一致性。。</li>
+          <li style={{ color: '#4e5461' }}><strong>4. 品牌资产建设：</strong>构建完整的品牌资产库，确保各触点形象一致性。</li>
         </ul>
         <h3>用户体验升级</h3>
         <p style={{ color: '#4e5461' }}>通过深度的用户连接与价值传递，提升品牌忠诚度和用户LTV。</p>
@@ -169,7 +169,7 @@ export const projects: Project[] = [
         <h3>会展活动营销</h3>
         <p style={{ color: '#4e5461' }}>通过参与或举办会展、活动、赛事等，制造市场话题，提升品牌关注度。</p>
         <ul>
-          <li style={{ color: '#4e5461' }}><strong>1. 会务会展策划：</strong> 参加行业会展和消费展览，通过现场展示提升产品认知度。</li>
+          <li style={{ color: '#4e5461' }}><strong>1. 会展会务策划：</strong> 参加行业会展和消费展览，通过现场展示提升产品认知度。</li>
           <li style={{ color: '#4e5461' }}><strong>2. 赛事合作营销：</strong> 赞助或参与电竞、体育赛事等，借助赛事影响力扩大品牌曝光。</li>
           <li style={{ color: '#4e5461' }}><strong>3. 现场活动执行：</strong> 举办线下体验活动、发布会等，增强用户与产品的直接互动。</li>
           <li style={{ color: '#4e5461' }}><strong>4. 活动传播放大：</strong> 通过多渠道传播活动内容，扩大活动影响力和品牌声量。</li>
