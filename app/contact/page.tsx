@@ -300,7 +300,7 @@ export default function ContactPage() {
                       <h3 className="font-medium mb-1">地址</h3>
                       <address className="not-italic text-muted-foreground">
                         武汉市洪山区，<br />
-                        光谷大道3号，未来之光
+                        光谷大道3号，未来之光6-12
                       </address>
                     </div>
                   </div>
